@@ -113,7 +113,7 @@ main h2 {
 }
 
 img[src*="/resources/headshot.jpg"] { 
-    width: 20%;
+    width: 20vw;
     height: 100%;
     object-fit: cover;
     background-position: 0px 35%;
