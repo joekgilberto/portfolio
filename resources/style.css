@@ -57,7 +57,7 @@ header {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-img[src*='/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/photos/logo2.svg'] {
+img[src*='/resources/logo2.svg'] {
     width: auto;
     height: 55px;
 }
@@ -112,7 +112,7 @@ main h2 {
     padding: 0px 25px;
 }
 
-img[src*="/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/photos/headshot.jpg"] { 
+img[src*="/resources/headshot.jpg"] { 
     width: 20vw;
     height: 100%;
     object-fit: cover;
@@ -120,7 +120,7 @@ img[src*="/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/photos/he
     border-radius: 15px 15px 15px 15px;
 }
 
-img[src*="/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/photos/sign_transp.png"] {
+img[src*="/resources/sign_transp.png"] {
     width: 250px;
     line-height: 0px;
 }
