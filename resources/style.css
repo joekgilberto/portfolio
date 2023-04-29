@@ -10,17 +10,17 @@ body {
 
 @font-face {
     font-family: "Raleway Extra Bold";
-    src: url("/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/fonts/Raleway-ExtraBold.ttf") format("truetype");
+    src: url("/resources/fonts/Raleway-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Raleway Medium Italic";
-    src: url("/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/fonts/Raleway-MediumItalic.ttf") format("truetype");
+    src: url("/resources/fonts/Raleway-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Source Sans Pro";
-    src: url("/Users/joegilberto/Desktop/Coding/joekgilberto_1.1/resources/fonts/SourceSansPro-Regular.ttf") format("truetype");
+    src: url("/resources/fonts/SourceSansPro-Regular.ttf") format("truetype");
 }
 
 /* Text */
