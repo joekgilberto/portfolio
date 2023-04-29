@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: "Raleway Extra Bold";
-    src: url("/resources/fonts/Raleway-ExtraBold.ttf") format("truetype");
+    src: url("resources/fonts/Raleway-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
