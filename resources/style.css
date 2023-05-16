@@ -58,7 +58,7 @@ header {
 }
 
 img[src*="/resources/white_logo.png"] {
-    width: auto;
+    width: 55px;
     height: 55px;
 }
 
