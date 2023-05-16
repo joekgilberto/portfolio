@@ -58,8 +58,8 @@ header {
 }
 
 img[src*="/resources/white_logo.png"] {
-    width: 55px;
     height: 55px;
+    width: auto;
 }
 
 header h3{
