@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe Gilberto</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/main.js"></script>
+    <script src="/js/main.js" defer></script>
 </head>
 
 <body>
@@ -15,9 +15,9 @@
             <h1>JOE GILBERTO</h1>
             <h2>Full-Stack Software Engineer</h2>
         </section>
-        <section class="arrow">
+        <button class="arrow">
             <img src="/assets/header/arrow.png" alt="Down arrow">
-        </section>
+        </button>
     </header>
     <main>
         <section class="intro">
@@ -43,116 +43,76 @@
                         src="/assets/contact/linkedin.png" alt="LinkedIn" /></a>
             </section>
         </section>
-        <section class="toolbelt">
-            <section class="belt">
-                <section class="loop">
-                    <h3>Languages & Framworks</h3>
-                </section>
-                <section class="tools">
-                    <div>
+        <section class="smarts">
+            <section class="toolbelt">
+                <h3>Languages & Framworks</h3>
+                <section class="belt">
+                    <div class="tool">
                         <img src="assets/languages/html.png" alt="HTML" />
-                        <p class="collapsible">HTML</p>
+                        <h4>HTML</h4>
                     </div>
-                    <div>
+                    <div class="tool">
                         <img src="assets/languages/css.png" alt="CSS" />
-                        <p class="collapsible">CSS</p>
+                        <h4>CSS</h4>
                     </div>
-                    <div>
+                    <div class="tool">
                         <img src="assets/languages/javascript.png" alt="JavaScript" />
-                        <p class="collapsible">JavaScript</p>
+                        <h4>JavaScript</h4>
                     </div>
-                    <div>
+                    <div class="tool">
                         <img src="assets/languages/python.png" alt="Python" />
-                        <p class="collapsible">Python</p>
+                        <h4>Python</h4>
                     </div>
-                    <div>
+                    <div class="tool">
+                        <img src="assets/languages/mongodb.png" alt="MongoDB" />
+                        <h4>MongoDB</h4>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/languages/express.png" alt="Express" />
+                        <h4>Express</h4>
+                    </div>
+                    <div class="tool">
                         <img src="assets/languages/react.png" alt="React" />
-                        <p class="collapsible">React</p>
+                        <h4>React</h4>
                     </div>
-                    <div>
-                        <img src="assets/languages/django.png" alt="Django" />
-                        <p class="collapsible">Django</p>
-                    </div>
-                    <div>
+                    <div class="tool">
                         <img src="assets/languages/node.png" alt="Node.js" />
-                        <p class="collapsible">Node.js</p>
+                        <h4>Node.js</h4>
                     </div>
-                </section>
-            </section>
-            <section class="belt">
-                <section class="loop">
-                    <h3>Utilities</h3>
-                </section>
-                <section class="tools">
-                    <div>
-                        <img src="assets/utilities/git.png" alt="Git" />
-                        <p class="collapsible">Git</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/github-1.png" alt="GitHub" />
-                        <p class="collapsible">GitHub</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/vscode.png" alt="VSCode" />
-                        <p class="collapsible">VSCode</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/microsoft-office.png" alt="Microsoft Office" />
-                        <p class="collapsible">Microsoft Office</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/google.png" alt="Google Workspace" />
-                        <p class="collapsible">Google Workspace</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/zoom.png" alt="Zoom" />
-                        <p class="collapsible">Zoom</p>
-                    </div>
-                    <div>
-                        <img src="assets/utilities/slack.png" alt="Slack" />
-                        <p class="collapsible">Slack</p>
-                    </div>
-                </section>
-            </section>
-            <section class="belt">
-                <section class="loop">
-                    <h3>Skills</h3>
-                </section>
-                <section class="tools">
-                    <div>
-                        <img src="assets/skills/problem-solving.png" alt="Problem Solving" />
-                        <p class="collapsible">Problem Solving</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/planning.png" alt="Planning" />
-                        <p class="collapsible">Planning</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/teamwork.png" alt="Teamwork" />
-                        <p class="collapsible">Teamwork</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/communication.png" alt="Communication" />
-                        <p class="collapsible">Communication</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/prioritization.png" alt="Prioritization" />
-                        <p class="collapsible">Prioritization</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/project-management.png" alt="Project Management" />
-                        <p class="collapsible">Project Management</p>
-                    </div>
-                    <div>
-                        <img src="assets/skills/time-management.png" alt="Time Management" />
-                        <p class="collapsible">Time Management</p>
+                    <div class="tool">
+                        <img src="assets/languages/django.png" alt="Django" />
+                        <h4>Django</h4>
                     </div>
                 </section>
             </section>
 
+            <section class="toolbelt">
+                <h3>Utilities</h3>
+                <section class="belt">
+                    <div class="tool">
+                        <img src="assets/utilities/git.png" alt="Git" />
+                        <h4>Git</h4>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/utilities/github-1.png" alt="GitHub" />
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/utilities/vscode.png" alt="VSCode" />
+                        <h4>VSCode</h4>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/utilities/slack.png" alt="Slack" />
+                        <h4>Slack</h4>
+                    </div>
+                    <div class="tool">
+                        <img src="assets/utilities/zoom.png" alt="Zoom" />
+                        <h4>Zoom</h4>
+                    </div>
+                </section>
+            </section>
         </section>
     </main>
-
 </body>
 
 </html>
