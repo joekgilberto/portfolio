@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    /* border: 2px solid pink; */
 }
 
 html {
@@ -104,18 +105,13 @@ header {
     margin-bottom: 2rem;
     border-radius: 50%;
     background-color: #6aa84fff;
-    box-shadow: .125rem .125rem .125rem #00000080;
+    box-shadow: 5px 5px 10px #0000004d;
 }
 
 .arrow>img {
     margin-top: .25rem;
     width: 60%;
     height: 60%;
-}
-
-main {
-    width: 100vw;
-    height: 200vh;
 }
 
 .intro {
@@ -135,6 +131,10 @@ main {
     justify-content: center;
 }
 
+.about{
+    padding: 1rem;
+}
+
 .hello>h2 {
     margin: 0;
     padding: 0rem 2rem .5rem 2rem;
@@ -146,7 +146,53 @@ main {
 
 }
 
-.contact {
+.desktop-contact {
+    display: none;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.desktop-contact>img {
+    height: 15rem;
+    width: 13.5rem;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin: 0;
+    box-shadow: 5px 5px 10px #0000004d;
+}
+
+.contact-card {
+    height: 7.5rem;
+    width: 13.5rem;
+    background-color: #6aa84fff;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 5px 5px 10px #0000004d;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-card>a>p{
+    margin: .5rem 0;
+}
+
+.contact-card>a{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-card>a>img {
+    height: 2rem;
+    width: auto;
+    margin-right: .25rem;
+}
+
+.mobile-contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -154,25 +200,26 @@ main {
     height: 15%;
 }
 
-.contact>a {
+.mobile-contact>a {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact>a>img {
+.mobile-contact>a>img {
     height: 80%;
     width: auto;
 }
 
 .smarts {
     width: 100vw;
-    height: 150vh;
-    display: flex;
+    height: auto;
+    padding: 1rem 0;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; */
 }
 
 .toolbelt {
@@ -185,9 +232,9 @@ main {
 .toolbelt>h3 {
     background-color: #6aa84fff;
     border-radius: 1rem 1rem 0 0;
-    width: 80vw;
+    width: 80%;
     margin: 1rem 0 0 0;
-    padding: 1rem;
+    padding: .75rem;
     text-align: center;
 }
 
@@ -200,7 +247,7 @@ main {
 }
 
 .belt {
-    width: 80vw;
+    width: 80%;
 }
 
 .tool {
@@ -209,6 +256,8 @@ main {
     margin: .5rem;
     display: flex;
     flex-direction: column;
+    border-radius: .75rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .tool>img {
@@ -250,6 +299,12 @@ main {
     html {
         font-size: 25px;
     }
+
+    .tool {
+        height: 20%
+    }
+
+
 }
 
 @media (min-width: 768px) {
@@ -257,12 +312,12 @@ main {
         font-size: 30px;
     }
 
-    .tool {
-        width: 25%;
-    }
-
     h4 {
         font-size: .9rem;
+    }
+
+    .tool {
+        width: 25%;
     }
 
     .tool.smaller>h4 {
@@ -287,8 +342,42 @@ main {
         margin-bottom: 1rem;
     }
 
+    .hello {
+        height: 95%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hello p {
+        font-size: .8rem;
+    }
+
+    .desktop-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+
+    .contact-card>a>p{
+        font-size: .75rem;
+    }
+
+    .mobile-contact {
+        height: 5%;
+    }
+
+    .mobile-contact>a {
+        display: none;
+    }
+
+    .about {
+        width: 60%;
+    }
+
     .tool {
-        width: 22.5%;
+        width: 20%;
     }
 
     .tool:hover>h4 {
@@ -303,6 +392,10 @@ main {
 @media (min-width: 1200px) {
     .tool {
         width: 15%;
+    }
+
+    .hello p {
+        font-size: 1rem;
     }
 
 }
