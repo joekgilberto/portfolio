@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Battleship",
+      "live": "https://joekgilberto.github.io/battleship/",
+      "git": "https://github.com/joekgilberto/battleship",
+      "image": "https://i.imgur.com/2cZYD1X.png"
+    },
+    {
+      "name": "JTE Collective",
+      "live": "https://jte-collective-a4dbe6e33fa8.herokuapp.com/listings",
+      "git": "https://github.com/joekgilberto/JTE-Collective",
+      "image": "https://i.imgur.com/inzxXEf.png"
+    }
+  ]
