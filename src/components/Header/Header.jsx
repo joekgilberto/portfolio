@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header() {
+function Header({page, setPage}) {
 
   return (
     <header>
@@ -12,13 +12,13 @@ function Header() {
       </section>
       <nav>
         <Link to='/'>
-          <div className='active'>Home</div>
+          <div className={page==="home"?"active":null}>Home</div>
         </Link>
         <Link to='/about'>
-          <div>About</div>
+          <div className={page==="about"?"active":null}>About</div>
         </Link>
         <Link to='/projects'>
-          <div className='projects'>Projects</div>
+          <div className={page==="projects"?"active":null} id="projects">Projects</div>
         </Link>
       </nav>
     </header>

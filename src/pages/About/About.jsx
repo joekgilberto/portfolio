@@ -1,7 +1,7 @@
 import "./About.css"
 import { useState, useEffect } from "react";
 
-function About() {
+function About({page, setPage}) {
     const [about, setAbout] = useState(null);
 
     async function getAboutData() {
@@ -10,7 +10,11 @@ function About() {
         setAbout(data);
     };
 
-    useEffect(() => { getAboutData() }, []);
+    useEffect(() => {
+        getAboutData()
+        setPage("about")
+    }, []);
+
 
     function loaded() {
         return (

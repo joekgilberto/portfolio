@@ -1,7 +1,14 @@
 import "./Home.css"
 import { Link } from 'react-router-dom';
+import { useEffect } from "react";
 
-function Home(props) {
+function Home({page, setPage}) {
+
+    useEffect(() => {
+        setPage("home")
+
+    }, []);
+
     return (
         <section className="Home">
             <h1>JOE GILBERTO</h1>

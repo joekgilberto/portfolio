@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Projects(props) {
+function Projects({page, setPage}) {
     const [projects, setProjects] = useState(null);
 
     async function getProjectsData() {
@@ -9,7 +9,11 @@ function Projects(props) {
         setProjects(data);
     };
 
-    useEffect(() => { getProjectsData() }, []);
+    useEffect(() => {
+        getProjectsData()
+        setPage("projects")
+
+    }, []);
 
     function loaded() {
         return projects.map((project,idx) => (
