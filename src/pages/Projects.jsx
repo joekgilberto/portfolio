@@ -13,7 +13,7 @@ function Projects(props) {
 
     function loaded() {
         return projects.map((project,idx) => (
-            <div key={idx}>
+            <section key={idx}>
                 <h1>{project.name}</h1>
                 <img src={project.image} />
                 <a href={project.git}>
@@ -22,7 +22,7 @@ function Projects(props) {
                 <a href={project.live}>
                     <button>live site</button>
                 </a>
-            </div>
+            </section>
         ));
     }
 

@@ -1,5 +1,11 @@
+import "./Footer.css"
+
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return (
+        <footer>
+            <p>Made using React by Joe Gilberto</p>
+        </footer>
+    );
 }
 
 export default Footer;

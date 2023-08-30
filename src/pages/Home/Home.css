@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Home h1 {
+    font-size: 60px;
+    color: #ff68b8ff;
+    margin: 10px;
+    width: 402px;
+}
+
+.fake-search-bar {
+    background-color: #f3f3f3ff;
+    width: 402px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fake-search {
+    width: 20px;
+    height: 20px;
+}
+
+.Home h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media only screen and (min-width: 650px) {
+    .Home h1 {
+        font-size: 80px;
+        width: 535px;
+    }
+
+    .Home h2 {
+        font-size: 30px;
+    }
+
+    .fake-search-bar {
+        width: 535px;
+    }
+
+    .fake-search {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    .Home h1 {
+        font-size: 100px;
+        width: 670px;
+    }
+
+    .Home h2 {
+        font-size: 40px;
+    }
+
+    .fake-search-bar {
+        width: 640px;
+    }
+
+    .fake-search {
+        width: 40px;
+        height: 40px;
+    }
+}

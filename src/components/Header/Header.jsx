@@ -5,16 +5,20 @@ function Header() {
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+      <section className='fake-buttons'>
+        <div className='dot pink'></div>
+        <div className='dot blue'></div>
+        <div className='dot green'></div>
+      </section>
       <nav>
         <Link to='/'>
-          <div>HOME</div>
+          <div className='active'>Home</div>
         </Link>
         <Link to='/about'>
-          <div>ABOUT</div>
+          <div>About</div>
         </Link>
         <Link to='/projects'>
-          <div>PROJECTS</div>
+          <div className='projects'>Projects</div>
         </Link>
       </nav>
     </header>
