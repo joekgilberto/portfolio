@@ -1,14 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .Error {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     font-family: 'Roboto', sans-serif;
 }
 
 .Error h1 {
-    font-size: 60px;
-    color: #f3f3f3ff
+    width: 500px;
+    font-size: 30px;
+    color: #ff68b8ff;
+    text-align: center;
+}
+
+.Error h2 {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.Error h3 {
+    margin: 0 0 0 30px;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Error a,
+.Error a:visited {
+    color: #4a86e8;
+}
+
+
+.fake-search-header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 10px;
+    border-bottom: 2px solid #d9d9d9ff;
+}
+
+.fake-search-bar-error {
+    display: flex;
+    background-color: #f3f3f3ff;
+    width: 90%;
+    height: 70px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fake-search-bar-error img {
+    margin: 0 30px 0 0;
+}
+
+.fake-search-body {
+    padding: 40px 60px;
+}
+
+.page-not-found {
+    font-weight: 300;
+}
+
+.page-not-found p {
+    font-size: 22px;
+}
+
+.ErrorFiller {
+    width: 400px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    margin: 50px 0;
+}
+
+.fake-link {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    background-color: #c9daf8ff;
+}
+
+.fake-description {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+    background-color: #d9d9d9ff;
+}
+@media only screen and (min-width: 605px) {
+    .Error h1 {
+        font-size: 40px;
+        width: 550px;
+    }
+    .Error h3 {
+        font-size: 30px;
+    }
+    .fake-search-bar-error{
+        width: 80%;
+
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .Error h1 {
+        font-size: 50px;
+    }
+    .Error h3 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .fake-search-bar-error {
+        width: 90%;
+    }
 }
