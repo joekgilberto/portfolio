@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import Projects from '../pages/Projects/Projects';
+import Error from '../pages/Error/Error';
 
 function App() {
   const [page, setPage] = useState('home')
