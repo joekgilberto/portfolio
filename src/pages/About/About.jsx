@@ -11,8 +11,8 @@ function About({ page, setPage }) {
     };
 
     useEffect(() => {
-        getAboutData()
         setPage("about")
+        getAboutData()
     }, []);
 
 

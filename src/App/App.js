@@ -9,7 +9,7 @@ import { useState } from 'react';
 // IMPORT PAGES
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
-import Projects from '../pages/Projects';
+import Projects from '../pages/Projects/Projects';
 
 function App() {
   const [page, setPage] = useState('home')

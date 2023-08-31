@@ -6,7 +6,6 @@ function Home({page, setPage}) {
 
     useEffect(() => {
         setPage("home")
-
     }, []);
 
     return (

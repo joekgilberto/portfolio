@@ -3,6 +3,10 @@
   height: 95vh;
 }
 
+button:hover,a:hover{
+  cursor: pointer;
+}
+
 main {
   background-color: #fff;
   border-radius: 0 0 15px 15px;
