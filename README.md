@@ -3,7 +3,7 @@
 Hello!  I am Joe Gilberto, a full-stack software engineer who has completed a software engineering immersive through General Assembly, and this is my portfolio.  This portfolio contains some information about me, my contact information, my resume, and some projects I have worked on.
 
 ## Deployment
-[See the live site here.](https://extraordinary-raindrop-fe45ef.netlify.app)
+[See the live site here.](https://joekgilberto.com/)
 
 ## Technologies Used
 This app utilizes JavaScript, CSS, React, and Node.js to display the infomraiton presented.
