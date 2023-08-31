@@ -1,5 +1,6 @@
 import "./About.css"
 import { useState, useEffect } from "react";
+import Loading from "../Loading/Loading";
 
 function About({ page, setPage }) {
     const [about, setAbout] = useState(null);
@@ -55,7 +56,7 @@ function About({ page, setPage }) {
         )
     };
 
-    return about ? loaded() : <h1>Loading, please hold!</h1>;
+    return about ? loaded() : <Loading />;
 }
 
 export default About;

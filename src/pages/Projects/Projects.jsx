@@ -1,5 +1,6 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
+import Loading from "../Loading/Loading";
 
 function Projects({ page, setPage }) {
     const [projects, setProjects] = useState(null);
@@ -61,7 +62,7 @@ function Projects({ page, setPage }) {
                 </div>
             </div>
             <div className="post-body">
-                {projects ? loaded() : <h1>Loading, please hold!</h1>}
+                {projects ? loaded() : <Loading />}
             </div>
         </section>
     )
