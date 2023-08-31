@@ -6,6 +6,8 @@ header {
     background-color: #00000091;
     border-radius: 15px 15px 0 0;
     border-bottom: 20px solid #00000091;
+    box-shadow: 5px 5px 10px #00000060;
+
 }
 
 header nav {
