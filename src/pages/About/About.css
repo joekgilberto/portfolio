@@ -1,6 +1,10 @@
 .About {
-    font-family: sans-serif;
+    height: 1125px;
+    display: flex;
+    flex-direction: column-reverse;
     padding: 50px;
+    font-family: sans-serif;
+    align-items: center;
 }
 
 .About h1,
@@ -38,34 +42,29 @@
     width: 100%;
 }
 
-.About .page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px
-}
-
 .profile-card {
-    width: 350px;
+    width: 325x;;
     height: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid #000;
-    margin: 20px 0;
+    margin: 20px 0px;
     padding: 0px 25px 20px 25px;
     background-color: rgb(248, 249, 250);
 }
 
 .headshot {
-    width: 300px;
-    height: 400px;
+    width: 275px;
+    height: 300px;
     object-fit: cover;
+    object-position: 0 -15px;
+
 }
 
 .contact-div {
-    width: 300px;
+    width: 275px;
     display: flex;
     justify-content: space-between;
 }
@@ -75,7 +74,8 @@
 }
 
 .info{
-    height: 600px;
+    height: 500px;
+    margin: 20px 0;
 }
 
 .info p{
@@ -95,38 +95,13 @@
     padding-bottom: 100px;
 }
 
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 945px) {
 
-    .About .page{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+    .About{
+        height: auto;
+        flex-direction: row;
+        gap: 40px;
     }
 
-
-}
-
-@media only screen and (min-width: 900px) {
-
-    .profile-card {
-        width: 325x;;
-    }
-    
-    .headshot {
-        width: 275px;
-        height: 300px;
-        object-fit: cover;
-        object-position: 0 -15px;
-
-    }
-    
-    .contact-div {
-        width: 275px;
-    }
-
-    .info{
-        height: 500px;
-        margin: 20px 0;
-    }
 
 }
