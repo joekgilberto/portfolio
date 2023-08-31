@@ -22,6 +22,7 @@ function App() {
         <Route path='/' element={<Home page={page} setPage={setPage} />} name='home' />
         <Route path='/about' element={<About page={page} setPage={setPage} />} name='about' />
         <Route path='/projects' element={<Projects page={page} setPage={setPage} />} name='projects' />
+        <Route path='/*' element={<Error page={page} setPage={setPage} />} name='error' />
       </Routes>
       </main>
       <Footer />
