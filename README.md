@@ -12,8 +12,6 @@ This app utilizes JavaScript, CSS, React, and Node.js to display the infomraiton
 Thank you to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for providing the following public domain images:
 - [Magnifying glass icon](https://commons.wikimedia.org/wiki/File:Magnifying_glass_icon.svg)
 - [Globe icon](https://commons.wikimedia.org/wiki/File:Globe_icon-white.svg)
-- [Heart symbol](https://commons.wikimedia.org/wiki/File:Red-simple-heart-symbol-only.png)
-- [Comment icon](https://commons.wikimedia.org/wiki/File:Font_Awesome_5_regular_comment-alt.svg)
 
 ## Future Features
 1. Will add a contact form and submission.

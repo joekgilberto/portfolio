@@ -33,13 +33,13 @@ function Projects({ page, setPage }) {
                         <a href={project.live} target="_blank">
 
                             <button className="live">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Red-simple-heart-symbol-only.png?20210611024846" alt="heart" />
+                                <img src="https://i.imgur.com/HBmPcA8.png" alt="heart" />
                                 Live
                             </button>
                         </a>
                         <a href={project.git} target="_blank">
                             <button className="github">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Font_Awesome_5_regular_comment-alt.svg/1024px-Font_Awesome_5_regular_comment-alt.svg.png?20180810174434" alt="comment" />
+                                <img src="https://i.imgur.com/2PKeewa.png" alt="comment" />
                                 GitHub
                             </button>
                         </a>
