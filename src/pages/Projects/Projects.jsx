@@ -24,7 +24,7 @@ function Projects({ page, setPage }) {
                         <p>JG</p>
                         <h1>{project.name}</h1>
                     </div>
-                    <img src={project.image} />
+                    <img className="project-img" src={project.image} />
                     <p>{project.description}</p>
                 </div>
                 <div className="post-bottom">
