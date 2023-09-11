@@ -35,13 +35,6 @@ main {
   background-color: #5acc29ff;
 }
 
-@media only screen and (min-width: 900px) {
-  .App {
-    width: 90vw;
-    height: 90vh;
-  }
-}
-
 @media only screen and (min-height: 310px) {
   main {
     height: 60%;
