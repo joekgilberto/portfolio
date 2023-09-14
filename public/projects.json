@@ -1,7 +1,14 @@
 [
   {
     "name": "Shop 'n' List",
-    "description":"Built a MEN-stack application for selling items and bidding on others' listings.  Utilized RESTful routes that allow users, logged in through Google OAuth, to create detailed sale posts, edit those posts, and delete them.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Created using JavaScript, EJS, MongoDB and Mongoose, Express, and Node.js.",
+    "description":"Designed a MERN-stack application to...",
+    "live": "https://dynamic-duel.netlify.app/",
+    "git": "https://github.com/joekgilberto/dynamic-duel",
+    "image": "dynamic-duel.png"
+  },
+  {
+    "name": "Shop 'n' List",
+    "description":"Built a MEN-stack application to practice selling items and bidding on others' postings.  Utilized RESTful routes that provide users CRUD operations.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Created using JavaScript, EJS, MongoDB and Mongoose, Express.js, and Node.js.",
     "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
     "git": "https://github.com/joekgilberto/shop-n-list",
     "image": "shop-n-list.png"

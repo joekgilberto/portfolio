@@ -28,7 +28,7 @@ function Projects({ page, setPage }) {
                     </div>
                     <img className="project-img" src={require(`../../assets/${project.image}`)} />
                     <Flare side={'inline'} />
-                    <p>{project.description}</p>
+                    <p className="post-description">{project.description}</p>
                 </div>
                 <div className="post-bottom">
                     <div className="post-buttons">

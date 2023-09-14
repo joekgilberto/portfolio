@@ -23,6 +23,11 @@ header nav a {
     font-size: 24px;
 }
 
+header nav a:hover {
+    text-decoration: none !important;
+
+}
+
 header nav div {
     width: 110px;
     height: 60px;
@@ -34,7 +39,7 @@ header nav div {
     margin-top: 10px;
 }
 
-#projects{
+#projects {
     margin-right: 10px;
 }
 
@@ -53,15 +58,15 @@ header nav div {
     height: 15px;
 }
 
-.dot.pink{
+.dot.pink {
     display: none;
 }
 
-.dot.blue{
+.dot.blue {
     display: none;
 }
 
-.dot.green{
+.dot.green {
     display: none;
 }
 
@@ -73,14 +78,15 @@ header nav div {
 }
 
 @media only screen and (min-width: 440px) {
-    .fake-buttons{
+    .fake-buttons {
         display: flex;
     }
-    .dot.pink{
+
+    .dot.pink {
         display: block;
     }
 
-    header nav{
+    header nav {
         justify-content: space-evenly;
     }
 
@@ -92,17 +98,17 @@ header nav div {
         font-size: 24px;
     }
 
-    .projects{
+    .projects {
         margin: 0;
     }
 }
 
 @media only screen and (min-width: 480px) {
-    .dot.blue{
+    .dot.blue {
         display: block;
     }
 
-    .dot.green{
+    .dot.green {
         display: block;
     }
 

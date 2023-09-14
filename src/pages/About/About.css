@@ -4,6 +4,7 @@
     padding: 50px;
     font-family: sans-serif;
     align-items: flex-start;
+    background-color: #f3f9ffff;
 }
 
 
@@ -22,7 +23,7 @@
     align-items: center;
     margin: 20px 0px;
     padding: 20px;
-    background-color: #f3f9ffff;
+    background-color: #fff;
     gap: 20px;
     border-radius: 10px;
     box-shadow: 0px 2px 2px #00000040;
@@ -41,18 +42,19 @@
 }
 
 .info p{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .bio p{
     line-height: 1.4;
+    text-align: justify;
 }
 
 .quick-facts{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f3f9ffff;
+    background-color: #fff;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0px 2px 2px #00000040;
