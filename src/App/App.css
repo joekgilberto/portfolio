@@ -2,6 +2,7 @@
   width: 95vw;
   height: 95vh;
   font-family: 'Roboto', sans-serif;
+  animation: scale-y .25s forwards;
 }
 
 a {
@@ -140,5 +141,14 @@ main {
 
   100% {
     transform: rotate(360deg)
+  }
+}
+
+@keyframes scale-y {
+  0%{
+    transform: scaleY(0);
+  }
+  100%{
+    transform: scaleY(1);
   }
 }
