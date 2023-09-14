@@ -62,10 +62,12 @@ header nav div {
 
 .dot.blue {
     display: none;
+    animation: blue-dot .5s forwards .5s;
 }
 
 .dot.green {
     display: none;
+    animation: green-dot .5s forwards 1s;
 }
 
 .active {
@@ -82,6 +84,7 @@ header nav div {
 
     .dot.pink {
         display: block;
+        animation: pink-dot .5s forwards;
     }
 
     header nav {
@@ -157,4 +160,40 @@ header nav div {
         width: 220px;
     }
 
+}
+
+@keyframes pink-dot {
+    0%{
+        background-color: #ff68b8ff;
+    }
+    50%{
+        background-color: #ffb8de;
+    }
+    100%{
+        background-color: #ff68b8ff;
+    }
+}
+
+@keyframes blue-dot {
+    0%{
+        background-color: #4a86e8ff;
+    }
+    50%{
+        background-color: rgb(164, 199, 255);
+    }
+    100%{
+        background-color: #4a86e8ff;
+    }
+}
+
+@keyframes green-dot {
+    0%{
+        background-color: #5acc29ff;
+    }
+    50%{
+        background-color: #8ef462;
+    }
+    100%{
+        background-color: #5acc29ff;
+    }
 }
