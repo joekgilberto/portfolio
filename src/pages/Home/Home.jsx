@@ -21,6 +21,7 @@ function Home({page, setPage}) {
                 </Link>
             </div>
             <Flare side={'center'} />
+
         </section>
     );
 }

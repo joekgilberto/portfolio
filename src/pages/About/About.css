@@ -1,45 +1,17 @@
 .About {
-    height: 1125px;
     display: flex;
     flex-direction: column-reverse;
     padding: 50px;
     font-family: sans-serif;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.About h1,
-.About h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-}
 
-.About h1 {
+
+.About h1{
     font-size: 50px;
-    margin: 0;
-}
-
-.About h2 {
-    font-size: 40px;
-    margin-bottom: 0;
-}
-
-.About a {
-    text-decoration: none;
-
-}
-
-.About a:hover {
-    text-decoration: underline;
-
-}
-
-.About a,
-.About a:visited {
-    color: rgb(51, 102, 204);
-}
-
-.About .title{
-    width: 100%;
+    text-shadow: 0px 2px 2px #00000040;
+    margin: 0 0 15px 0;
 }
 
 .profile-card {
@@ -49,28 +21,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
     margin: 20px 0px;
-    padding: 0px 25px 20px 25px;
-    background-color: rgb(248, 249, 250);
+    padding: 20px;
+    background-color: #f3f9ffff;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #00000040;
+
 }
 
 .headshot {
     width: 275px;
-    height: 300px;
     object-fit: cover;
-    object-position: 0 -15px;
-
-}
-
-.contact-div {
-    width: 275px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.question {
-    font-weight: bold;
+    border-radius: 10px;
 }
 
 .info{
@@ -82,17 +45,36 @@
     font-size: 20px;
 }
 
-.bio>p{
-    margin-top: 0;
+.bio p{
+    line-height: 1.4;
 }
 
-.bio,
-.resume {
-    width: 100%;
+.quick-facts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f9ffff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #00000040;
+    margin: 0 0 15px 0;
+
 }
 
-.resume{
-    padding-bottom: 100px;
+.facts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.facts img {
+    height: 40px;
+    opacity: 50%;
+}
+
+.facts p{
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 945px) {
