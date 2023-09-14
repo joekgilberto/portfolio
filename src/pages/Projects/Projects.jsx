@@ -52,7 +52,7 @@ function Projects({ page, setPage }) {
     }
     return (
         <section className="Projects">
-            <div className="fake-header">
+            <div className="project-header">
                 <h1 className="pink-text">Projects</h1>
                 <Flare side={'right'} />
             </div>

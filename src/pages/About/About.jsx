@@ -1,10 +1,11 @@
 import "./About.css"
+
 import { useState, useEffect } from "react";
 
 import Flare from "../../components/Flare/Flare"
 import Loading from "../Loading/Loading";
 
-function About({ page, setPage }) {
+function About({ setPage }) {
     const [about, setAbout] = useState(null);
 
     async function getAboutData() {

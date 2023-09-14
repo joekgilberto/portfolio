@@ -47,3 +47,30 @@
     gap: 15px;
     max-width: 250px;
 }
+
+.upward{
+    height: 200px;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.Flare.upward{
+    width: 186px !important;
+}
+
+.upward .bar{
+width: 10px;
+}
+
+.upward .pink.bar{
+    height: 100%;
+}
+
+.upward .blue.bar{
+    height: 50%;
+}
+
+.upward .green.bar{
+    height: 25%;
+}

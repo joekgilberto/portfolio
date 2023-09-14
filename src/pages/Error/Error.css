@@ -3,8 +3,8 @@
 .Error {
     width: 100%;
     height: 100%;
-
     font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
 }
 
 .Error h1 {
@@ -40,12 +40,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px 0 10px;
-    border-bottom: 4px solid #f3f9ffff;
+    border-bottom: 4px solid #fff;
 }
 
 .fake-search-bar-error {
     display: flex;
-    background-color: #f3f9ffff;
+    background-color: #fff;
     width: 90%;
     height: 70px;
     border-radius: 25px;
@@ -90,7 +90,7 @@
 .fake-description {
     grid-column: 1 / span 4;
     grid-row: 2 / span 1;
-    background-color: #d9d9d9ff;
+    background-color: rgb(213, 221, 229);
 }
 @media only screen and (min-width: 605px) {
     .Error h1 {

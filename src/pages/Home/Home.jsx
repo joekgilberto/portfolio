@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 import Flare from "../../components/Flare/Flare";
 
-function Home({page, setPage}) {
+function Home({setPage}) {
 
     useEffect(() => {
         setPage("home")

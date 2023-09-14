@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import ErrorFiller from "./ErrorFiller";
 import { Link } from "react-router-dom";
 
-export default function Error({ page, setPage }) {
+export default function Error({ setPage }) {
 
     useEffect(() => {
-        setPage(null)
+        setPage("error")
     }, []);
 
     return (
@@ -27,6 +27,9 @@ export default function Error({ page, setPage }) {
                     </Link>
                     <p>Click above to return to the homepage.</p>
                 </div>
+                <ErrorFiller />
+                <ErrorFiller />
+                <ErrorFiller />
                 <ErrorFiller />
                 <ErrorFiller />
                 <ErrorFiller />
