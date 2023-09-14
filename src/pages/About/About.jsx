@@ -45,7 +45,7 @@ function About({ page, setPage }) {
                 </div>
                 <div className="profile-card">
                     <img className="headshot" src={require(`../../assets/${about.headshot}`)} alt={`${about.name} headshot`} />
-                    <Flare side={'right'} />
+                    <Flare side={'left'} />
 
                 </div>
             </section>

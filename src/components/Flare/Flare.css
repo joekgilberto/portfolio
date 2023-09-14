@@ -6,7 +6,6 @@
 .bar{
     height: 10px;
     border-radius: 10px;
-    box-shadow: 0px 2.5px 2.5px #00000040;
 }
 
 .pink.bar{
@@ -22,7 +21,8 @@
 }
 
 .inline{
-    gap: 15px;
+    padding: 0 20px;
+    gap: 5px;
 }
 
 .center{
@@ -32,9 +32,17 @@
     gap: 15px;
 }
 
+.left{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
 .right{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     gap: 15px;
+    max-width: 250px;
 }
