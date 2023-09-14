@@ -1,0 +1,29 @@
+.Flare{
+    width: 100%;
+    display: flex;
+}
+
+.bar{
+    height: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2.5px 2.5px #00000040;
+}
+
+.pink.bar{
+    width: 100%;
+}
+
+.blue.bar{
+    width: 50%;
+}
+
+.green.bar{
+    width: 25%;
+}
+
+.center{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

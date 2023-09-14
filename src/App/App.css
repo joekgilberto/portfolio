@@ -3,7 +3,8 @@
   height: 95vh;
 }
 
-button:hover,a:hover{
+button:hover,
+a:hover {
   cursor: pointer;
 }
 
@@ -23,16 +24,24 @@ main {
   background-color: #ff68b8ff;
 }
 
-.yellow {
-  background-color: #ffd966ff;
-}
-
 .blue {
   background-color: #4a86e8ff;
 }
 
 .green {
   background-color: #5acc29ff;
+}
+
+.pink-text {
+  color: #ff68b8ff;
+}
+
+.blue-text {
+  color: #4a86e8ff;
+}
+
+.green-text {
+  color: #5acc29ff;
 }
 
 @media only screen and (min-height: 310px) {
