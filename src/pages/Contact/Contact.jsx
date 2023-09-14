@@ -39,7 +39,7 @@ function Contact({ setPage }) {
                             return(
                             <div className="contact-link" key={idx} style={{animation: `rise .5s forwards ${idx-(.75*idx)}s`}}>
                                 <h3 className="blue">{c.name}</h3>
-                                <p><a className="blue-text" href={c.link}>{c.linkText}</a></p>
+                                <p><a className="blue-text" href={c.link} target="_blank">{c.linkText}</a></p>
                             </div>
                             )
                         })}
