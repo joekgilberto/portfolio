@@ -14,7 +14,7 @@ a:hover {
 
 }
 
-button{
+button {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -99,4 +99,46 @@ main {
     height: 85%;
   }
 
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes grow-width {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
 }

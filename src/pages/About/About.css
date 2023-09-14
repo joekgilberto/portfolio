@@ -47,8 +47,10 @@
 }
 
 .bio p{
+    opacity: 0;
     line-height: 1.4;
     text-align: justify;
+    animation: appear .5s forwards 1.5s;
 }
 
 .quick-facts{
@@ -61,7 +63,7 @@
     border-radius: 15px;
     box-shadow: 0px 2px 2px #00000040;
     margin: 0 0 15px 0;
-
+    animation: rise 1s forwards;
 }
 
 .facts{
@@ -111,3 +113,4 @@
     }
 
 }
+

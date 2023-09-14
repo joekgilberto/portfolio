@@ -27,12 +27,14 @@
     align-items: center;
     margin-bottom: 50px;
     box-shadow: 0px 2px 2px #00000040;
+    animation: rise .5s forwards;
 }
 
 .fake-search {
     width: 20px;
     height: 20px;
     margin: 0;
+    animation: rotate 1s forwards;
 }
 
 .Home h2 {

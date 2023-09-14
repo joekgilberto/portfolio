@@ -20,7 +20,7 @@ function Projects({ page, setPage }) {
 
     function loaded() {
         return projects.map((project, idx) => (
-            <section key={idx} className="post">
+            <section key={idx} className="post" style={{animation: `rise 1s forwards ${idx-(.75*idx)}s`}}>
                 <div className="post-top">
                     <div className="post-title">
                         <p className="green">JG</p>
