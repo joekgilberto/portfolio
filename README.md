@@ -10,8 +10,10 @@ This app utilizes JavaScript, CSS, React, and Node.js to display the infomraiton
 
 ## Acknowledgements
 Thank you to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for providing the following public domain images:
-- [Magnifying glass icon](https://commons.wikimedia.org/wiki/File:Magnifying_glass_icon.svg)
-- [Globe icon](https://commons.wikimedia.org/wiki/File:Globe_icon-white.svg)
+- https://commons.wikimedia.org/wiki/File:Document_(89521)_-_The_Noun_Project.svg
+- https://commons.wikimedia.org/wiki/File:Pin_point_location_SVG_black.svg
+- https://commons.wikimedia.org/wiki/File:Icon_(80027)_-_The_Noun_Project.svg
+- https://commons.wikimedia.org/wiki/File:Search-icon.png
 
 ## Future Features
 1. Will add a contact form and submission.

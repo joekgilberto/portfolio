@@ -56,7 +56,7 @@ function Projects({ page, setPage }) {
                 <h1 className="pink-text">Projects</h1>
                 <Flare side={'right'} />
             </div>
-            <div className="post-body">
+            <div className="feed">
                 {projects ? loaded() : <Loading />}
             </div>
         </section>
