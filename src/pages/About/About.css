@@ -1,9 +1,10 @@
 .About {
     display: flex;
     flex-direction: column-reverse;
-    padding: 50px;
+    padding: 10px;
     font-family: sans-serif;
-    align-items: flex-start;
+    justify-content:start;
+    align-items: center;
 }
 
 
@@ -11,6 +12,7 @@
 .About h1{
     font-size: 50px;
     margin: 0 0 15px 0;
+    text-align: center;
 }
 
 .profile-card {
@@ -41,7 +43,7 @@
 }
 
 .info p{
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .bio p{
@@ -51,6 +53,7 @@
 
 .quick-facts{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
@@ -65,11 +68,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px
+    gap: 5px;
 }
 
 .facts img {
-    height: 40px;
+    height: 30px;
     opacity: 50%;
 }
 
@@ -82,8 +85,29 @@
     .About{
         height: auto;
         flex-direction: row;
+        align-items: flex-start;
         gap: 40px;
+        padding: 50px;
     }
 
+    .About h1{
+        text-align: start;
+    }
+
+    .info p{
+        font-size: 24px;
+    }
+
+    .quick-facts{
+        flex-direction: row;
+    }
+
+    .facts{
+        gap: 10px;
+    }
+
+    .facts img {
+        height: 40px;
+    }
 
 }
