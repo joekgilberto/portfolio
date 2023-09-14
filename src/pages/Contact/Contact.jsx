@@ -31,19 +31,21 @@ function Contact({ setPage }) {
                 </div>
                 <div className="contact-info">
                     <div className="hello-there">
-                    <h2 className="green-text">Hello, there! 👋</h2>
-                    <p>Feel free to email me, check out my work, connect on LinkedIn, or message me through the following form!  I would love to get in touch.</p>
+                        <div className="hello-there-title">
+                            <h2 className="green-text">Hello, there!</h2><h2 className="wave">👋</h2>
+                        </div>
+                        <p>Feel free to email me, check out my work, connect on LinkedIn, or message me through the following form!  I would love to get in touch.</p>
                     </div>
                     <div className="contact-link-list">
-                        {contact.map((c,idx)=>{
-                            return(
-                            <div className="contact-link" key={idx} style={{animation: `rise .5s forwards ${idx-(.75*idx)}s`}}>
-                                <h3 className="green">{c.name}</h3>
-                                <p><a className="blue-text" href={c.link} target="_blank">{c.linkText}</a></p>
-                            </div>
+                        {contact.map((c, idx) => {
+                            return (
+                                <div className="contact-link" key={idx} style={{ animation: `rise .5s forwards ${idx - (.75 * idx)}s` }}>
+                                    <h3 className="green">{c.name}</h3>
+                                    <p><a className="blue-text" href={c.link} target="_blank">{c.linkText}</a></p>
+                                </div>
                             )
                         })}
-                        
+
                     </div>
                 </div>
             </section>

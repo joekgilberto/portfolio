@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     padding: 10px;
     font-family: sans-serif;
-    justify-content:start;
+    justify-content:flex-start;
     align-items: center;
 }
 
