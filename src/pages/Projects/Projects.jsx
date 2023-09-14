@@ -1,5 +1,7 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
+
+import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
 function Projects({ page, setPage }) {
@@ -21,25 +23,25 @@ function Projects({ page, setPage }) {
             <section key={idx} className="post">
                 <div className="post-top">
                     <div className="post-title">
-                        <p>JG</p>
-                        <h1>{project.name}</h1>
+                        <p className="green">JG</p>
+                        <h1 className="green-text">{project.name}</h1>
                     </div>
-                    <img className="project-img" src={project.image} />
-                    <p>{project.description}</p>
+                    <img className="project-img" src={require(`../../assets/${project.image}`)} />
+                    <Flare side={'inline'} />
+                    <p className="post-description">{project.description}</p>
                 </div>
                 <div className="post-bottom">
-                    <hr />
                     <div className="post-buttons">
                         <a href={project.live} target="_blank">
 
-                            <button className="live">
-                                <img src="https://i.imgur.com/HBmPcA8.png" alt="heart" />
+                            <button className="pink">
+                                <img src={require('../../assets/heart.png')} alt="heart" />
                                 Live
                             </button>
                         </a>
                         <a href={project.git} target="_blank">
-                            <button className="github">
-                                <img src="https://i.imgur.com/2PKeewa.png" alt="comment" />
+                            <button className="blue">
+                                <img src={require('../../assets/comment.png')} alt="comment" />
                                 GitHub
                             </button>
                         </a>
@@ -50,18 +52,11 @@ function Projects({ page, setPage }) {
     }
     return (
         <section className="Projects">
-            <div className="fake-header">
-                <div className="social-logo">
-                    <img className="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Globe_icon-white.svg/840px-Globe_icon-white.svg.png?20150908170847" alt="globe" />
-                    <h1>Projects</h1>
-                </div>
-                <div className="hamburger">
-                    <div className="hamburger-bar"></div>
-                    <div className="hamburger-bar"></div>
-                    <div className="hamburger-bar"></div>
-                </div>
+            <div className="project-header">
+                <h1 className="pink-text">Projects</h1>
+                <Flare side={'right'} />
             </div>
-            <div className="post-body">
+            <div className="feed">
                 {projects ? loaded() : <Loading />}
             </div>
         </section>

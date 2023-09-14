@@ -1,0 +1,76 @@
+.Flare{
+    width: 100%;
+    display: flex;
+}
+
+.bar{
+    height: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #00000040;
+}
+
+.pink.bar{
+    width: 100%;
+}
+
+.blue.bar{
+    width: 50%;
+}
+
+.green.bar{
+    width: 25%;
+}
+
+.inline{
+    padding: 0 20px;
+    gap: 5px;
+}
+
+.center{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.left{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    max-width: 250px;
+}
+
+.upward{
+    height: 200px;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.Flare.upward{
+    width: 186px !important;
+}
+
+.upward .bar{
+width: 10px;
+}
+
+.upward .pink.bar{
+    height: 100%;
+}
+
+.upward .blue.bar{
+    height: 50%;
+}
+
+.upward .green.bar{
+    height: 25%;
+}

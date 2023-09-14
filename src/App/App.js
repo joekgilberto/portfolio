@@ -10,6 +10,7 @@ import { useState } from 'react';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import Projects from '../pages/Projects/Projects';
+import Contact from '../pages/Contact/Contact'
 import Error from '../pages/Error/Error';
 
 function App() {
@@ -20,10 +21,11 @@ function App() {
       <Header page={page} />
       <main>
       <Routes>
-        <Route path='/' element={<Home page={page} setPage={setPage} />} name='home' />
-        <Route path='/about' element={<About page={page} setPage={setPage} />} name='about' />
-        <Route path='/projects' element={<Projects page={page} setPage={setPage} />} name='projects' />
-        <Route path='/*' element={<Error page={page} setPage={setPage} />} name='error' />
+        <Route path='/' element={<Home setPage={setPage} />} name='home' />
+        <Route path='/about' element={<About setPage={setPage} />} name='about' />
+        <Route path='/projects' element={<Projects setPage={setPage} />} name='projects' />
+        <Route path='/contact' element={<Contact setPage={setPage} />} name='error' />
+        <Route path='/*' element={<Error setPage={setPage} />} name='error' />
       </Routes>
       </main>
       <Footer />

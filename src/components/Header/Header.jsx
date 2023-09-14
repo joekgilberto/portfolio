@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
 
-function Header({page, setPage}) {
+function Header({page}) {
 
   return (
     <header>
@@ -19,6 +19,9 @@ function Header({page, setPage}) {
         </Link>
         <Link to='/projects'>
           <div className={page==="projects"?"active":null} id="projects">Projects</div>
+        </Link>
+        <Link to='/contact'>
+          <div className={page==="contact"?"active":null}>Contact</div>
         </Link>
       </nav>
     </header>

@@ -1,54 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .Projects {
     width: 100%;
-    height: 1780px;
-    font-family: 'Lato', sans-serif;
-    background-color: #efefefff;
 }
 
-.fake-header {
+.project-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    box-shadow: 0px 5px 5px #00000030;
+    box-shadow: 0px 2px 2px #00000030;
+    padding: 20px 40px;
 }
 
-.fake-header h1 {
-    font-size: 40px;
+.project-header h1 {
+    font-size: 50px;
     margin: 0;
 }
 
-.social-logo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    color: #4986e8ff;
-    margin-left: 10px;
-}
-
-.social-icon {
-    width: 50px;
-    height: 50px;
-    background-color: #4986e8ff;
-    padding: 7.5px;
-    border-radius: 50%;
-}
-
-.hamburger {
-    margin-right: 30px;
-}
-
-.hamburger-bar {
-    width: 50px;
-    height: 5px;
-    margin: 10px 0;
-    background-color: #d2d2d2;
-}
-
-.post-body {
+.feed {
     height: auto;
     display: flex;
     justify-content: center;
@@ -62,16 +31,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 500px;
-    height: 790px;
+    width: 400px;
+    height: 950px;
     background-color: #fff;
     border-radius: 12.5px;
-    box-shadow: 0px 5px 5px #00000030;
+    box-shadow: 0px 2px 2px #00000030;
+    margin-bottom: 30px;
 }
 
 .project-img {
-    width: 500px;
-    background-color: #e2edff;
+    width: 400px;
 }
 
 .post p{
@@ -89,7 +58,6 @@
 
 .post-title h1 {
     font-size: 35px;
-    color: #416a91;
     margin: 0;
 }
 
@@ -102,18 +70,20 @@
     padding: 0;
     margin: 0;
     color: #fff;
-    background-color: #4986e8ff;
     font-size: 20px;
     border-radius: 50%;
 }
 
-.post-bottom{
-    padding-bottom: 20px;
+.post-description{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
-.post hr{
-    width: 90%;
-    border: 2px solid #d2d2d2;
+.post-bottom{
+    padding-bottom: 20px;
 }
 
 .post-buttons{
@@ -130,35 +100,46 @@
 }
 
 .post-buttons button{
-    width: 220px;
-    height: 50px;
+    width: 140px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 26px;
     border: none;
-    color: #909090;
-    background-color: transparent;
+    color: #fff;
+    box-shadow: 0px 2px 2px #00000030;
+    border-radius: 10px;
+    gap: 10px;
+    font-weight: bold;
 }
 
-.live img{
-    width: 40px;
+.post-buttons img{
+    width: 30px;
     height: auto;
-    margin-right: 10px;
 }
 
-.github img{
-    width: 40px;
-    height: auto;
-    margin-right: 15px;
-    opacity: 40%;
-}
-
-@media only screen and (min-width: 1156px) {
-
-    .Projects{
-        height: 960px;
+@media only screen and (min-width: 600px) {
+    .post {
+        width: 500px;
+        height: 900px
     }
 
+    .post-description{
+        height: 340px;
+    }
 
+    .project-img {
+        width: 500px;
+    }
+
+    .post-buttons button{
+        width: 180px;
+        height: 75px;
+        font-size: 30px;
+    }
+
+    .post-buttons img{
+        width: 40px;
+    }
 }
