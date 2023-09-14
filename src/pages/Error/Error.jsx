@@ -16,7 +16,7 @@ export default function Error({ setPage }) {
                 <div className="fake-search-bar-error">
                 <h3>ERROR 404</h3>
                 <Link to='/about'>
-                    <img className="fake-search" src={require('../../assets/search.png')} alt="fake search icon" />
+                    <img className="fake-search-error" src={require('../../assets/search.png')} alt="fake search icon" />
                 </Link>
                 </div>
             </div>
