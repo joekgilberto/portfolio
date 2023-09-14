@@ -25,7 +25,7 @@
     align-items: center;
     margin-bottom: 50px;
     box-shadow: 0px 2px 2px #00000040;
-    animation: rise 1s forwards 1.5s;
+    animation: rise 1s forwards 2s;
     transform: translateY(50px);
     opacity: 0;
 }

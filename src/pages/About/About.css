@@ -50,7 +50,7 @@
     opacity: 0;
     line-height: 1.4;
     text-align: justify;
-    animation: appear .5s forwards 1.5s;
+    animation: appear .5s forwards 2s;
 }
 
 .quick-facts{

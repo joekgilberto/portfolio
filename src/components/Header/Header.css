@@ -58,18 +58,18 @@ header nav div {
 
 .dot.pink {
     display: none;
-    animation: pink-dot .5s forwards .5s;
+    animation: pink-dot .5s forwards 2.5s;
 
 }
 
 .dot.blue {
     display: none;
-    animation: blue-dot .5s forwards 1s;
+    animation: blue-dot .5s forwards 2.75s;
 }
 
 .dot.green {
     display: none;
-    animation: green-dot .5s forwards 1.5s;
+    animation: green-dot .5s forwards 3s;
 }
 
 .active {
