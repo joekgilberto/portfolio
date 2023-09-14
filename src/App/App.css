@@ -24,7 +24,7 @@ a:hover {
 }
 
 main {
-  background-color: #fff;
+  background-image: linear-gradient(135deg, #fff, #dce9ff);
   border-radius: 0 0 15px 15px;
   height: 50%;
   display: flex;

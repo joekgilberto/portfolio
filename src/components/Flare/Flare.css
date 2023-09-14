@@ -6,6 +6,7 @@
 .bar{
     height: 10px;
     border-radius: 10px;
+    box-shadow: 0px 2px 2px #00000040;
 }
 
 .pink.bar{

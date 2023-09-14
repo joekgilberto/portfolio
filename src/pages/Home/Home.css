@@ -13,11 +13,13 @@
     color: #ff68b8ff;
     margin: 10px;
     width: 402px;
+    text-shadow: 0px 2px 2px #00000040;
+
 
 }
 
 .fake-search-bar {
-    background-color: #f3f9ffff;
+    background-color: #fff;
     width: 402px;
     border-radius: 25px;
     display: flex;
