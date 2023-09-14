@@ -31,7 +31,7 @@ function Contact({ setPage }) {
                 </div>
                 <div className="contact-info">
                     <div className="hello-there">
-                    <h2 className="green-text">Hello, there!</h2>
+                    <h2 className="green-text">Hello, there! 👋</h2>
                     <p>Feel free to email me, check out my work, connect on LinkedIn, or message me through the following form!  I would love to get in touch.</p>
                     </div>
                     <div className="contact-link-list">
