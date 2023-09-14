@@ -29,7 +29,7 @@ function About({ setPage }) {
                     <div className="quick-facts">
                         <div className="facts">
                             <img src={require(`../../assets/${about.resumeIcon}`)} alt='resume' />
-                            <p><a className="blue-text" href={about.resume}>Resume</a></p>
+                            <p><a className="blue-text" href={about.resume} target="_blank">Resume</a></p>
                         </div>
                         <div className="facts">
                             <img src={require(`../../assets/${about.locationIcon}`)} alt='resume' />
