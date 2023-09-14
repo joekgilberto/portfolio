@@ -1,8 +1,9 @@
 import "./About.css"
 import { useState, useEffect } from "react";
+import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
-function About({ page, setPage }) {
+function About({ setPage }) {
     const [about, setAbout] = useState(null);
 
     async function getAboutData() {
@@ -23,36 +24,31 @@ function About({ page, setPage }) {
 
                 <div className="info">
                     <div className="title">
-                        <h1>About</h1>
-                        <hr />
+                        <h1 className="pink-text">About</h1>
+                    </div>
+                    <div className="quick-facts">
+                        <div className="fact">
+                            <img src={require(`../../assets/${about.resumeIcon}`)} />
+                            <p><a className="blue-text" href={about.resume} target="_blank">Resume</a></p>
+                        </div>
+                        <div className="fact">
+                            <img src={require(`../../assets/${about.locationIcon}`)} />
+                            <p className="green-text">{about.location}</p>
+                        </div>
+                        <div className="fact">
+                            <img src={require(`../../assets/${about.codingIcon}`)} />
+                            <p className="green-text">{about.education}</p>
+                        </div>
                     </div>
                     <div className="bio">
-                        <p>{about.bio}</p>
+                        <p><span className="bold">{about.name}</span> {about.bio}</p>
                     </div>
-                    <div className="resume">
-                        <h2>Resume</h2>
-                        <hr />
-                        <p>Joe Gilberto's resume can be found <a href={about.resume} target="_blank">here</a>.</p>
-                    </div>
+                </div >
+                <div className="headshot-card">
+                    <img className="headshot" src={require(`../../assets/${about.headshot}`)} alt={`${about.name} headshot`} />
+                    <Flare side={'left'} />
                 </div>
-                <div className="profile-card">
-                    <h3>Joe Gilberto</h3>
-                    <img className="headshot" src={about.headshot} alt={`${about.name} headshot`} />
-                    <div className="contact-div">
-                        <div className="question">
-                            <p>Email</p>
-                            <p>GitHub</p>
-                            <p>LinkedIn</p>
-                        </div>
-                        <div className="answer">
-                            <p><a href={`mailto:${about.email}?subject="Hello, Joe!"`}>{about.email}</a></p>
-                            <p><a href={about.github} target="_blank">github.com/joekgilberto</a></p>
-                            <p><a href={about.linkedin} target="_blank">linkedin.com/in/joe-gilberto/</a></p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+            </section >
         )
     };
 

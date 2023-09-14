@@ -1,16 +1,23 @@
 [
-    {
-      "name": "Battleship",
-      "description":"Built a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a thoughtfully designed game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.",
-      "live": "https://joekgilberto.github.io/battleship/",
-      "git": "https://github.com/joekgilberto/battleship",
-      "image": "https://i.imgur.com/Kd7KPqU.png"
-    },
-    {
-      "name": "Shop 'n' List",
-      "description":"Built a MEN-stack application for selling items and bidding on others' listings.  Utilized RESTful routes that allow users, logged in through Google OAuth, to create detailed sale posts, edit those posts, and delete them.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Created using JavaScript, EJS, MongoDB and Mongoose, Express, and Node.js.",
-      "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
-      "git": "https://github.com/joekgilberto/shop-n-list",
-      "image": "https://i.imgur.com/dkjMAdW.png"
-    }
-  ]
+  {
+    "name": "Dynamic Duel",
+    "description": "Designed a robust MERN-stack application that interacts with a 3rd Party API.  Pulls superhero and super villain information from the Supehero API, allowing users to search supers and learn more about them.  It also has JWT authentication which allows users to login, make posts pitting supers against each other in battle, like those posts, and comment on them.  It also utilizes user pages to show off a user's favorite supers and user's battles.  Created using MongoDB and Mongoose, Express.js, React, Node.js and CSS.",
+    "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
+    "git": "https://github.com/joekgilberto/shop-n-list",
+    "image": "dynamic-duel.png"
+  },
+  {
+    "name": "Shop 'n' List",
+    "description": "Built a MEN-stack application that selling items and bidding on others' listings.  Utilized RESTful routes for CRUD operations that allow users, once logged in through Google OAuth, to create detailed sale posts.  From there, users can then edit and delete their own posts, an bid on other's listings.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Created using JavaScript, EJS, Cloudinary, MongoDB and Mongoose, Express.js, and Node.js.",
+    "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
+    "git": "https://github.com/joekgilberto/shop-n-list",
+    "image": "shop-n-list.png"
+  },
+  {
+    "name": "Battleship",
+    "description": "Built a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a thoughtfully designed game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.",
+    "live": "https://joekgilberto.github.io/battleship/",
+    "git": "https://github.com/joekgilberto/battleship",
+    "image": "battleship.png"
+  }
+]

@@ -1,0 +1,91 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 900px;
+    background-color: #fff;
+    border-radius: 12.5px;
+    box-shadow: 0px 2.5px 2.5px #00000030;
+}
+
+.post-img {
+    width: 500px;
+}
+
+.post p{
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.post-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.post-title h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.post-title p {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.post-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.post-bottom{
+    padding-bottom: 20px;
+}
+
+.post-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.post-buttons a{
+    text-decoration: none;
+
+}
+
+.post-buttons button{
+    width: 210px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2.5px 2.5px #00000030;
+    gap: 10px;
+}
+
+.post-buttons img{
+    width: 40px;
+}

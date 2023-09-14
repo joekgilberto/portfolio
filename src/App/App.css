@@ -1,6 +1,19 @@
 .App {
   width: 95vw;
   height: 95vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button{
+  font-family: 'Roboto', sans-serif;
 }
 
 button:hover,a:hover{
@@ -18,13 +31,16 @@ main {
   box-shadow: 5px 5px 10px #00000060;
 }
 
+.main-error{
+  overflow-y:hidden !important;
+}
+
+.bold{
+  font-weight: bold !important;
+}
 
 .pink {
   background-color: #ff68b8ff;
-}
-
-.yellow {
-  background-color: #ffd966ff;
 }
 
 .blue {
@@ -33,6 +49,18 @@ main {
 
 .green {
   background-color: #5acc29ff;
+}
+
+.pink-text {
+  color: #ff68b8ff !important;
+}
+
+.blue-text {
+  color: #4a86e8ff !important;
+}
+
+.green-text {
+  color: #5acc29ff !important;
 }
 
 @media only screen and (min-height: 310px) {

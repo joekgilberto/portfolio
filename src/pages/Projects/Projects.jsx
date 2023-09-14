@@ -1,8 +1,11 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
+
+import Post from "../../components/Post/Post";
+import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
-function Projects({ page, setPage }) {
+function Projects({ setPage }) {
     const [projects, setProjects] = useState(null);
 
     async function getProjectsData() {
@@ -18,50 +21,17 @@ function Projects({ page, setPage }) {
 
     function loaded() {
         return projects.map((project, idx) => (
-            <section key={idx} className="post">
-                <div className="post-top">
-                    <div className="post-title">
-                        <p>JG</p>
-                        <h1>{project.name}</h1>
-                    </div>
-                    <img className="project-img" src={project.image} />
-                    <p>{project.description}</p>
-                </div>
-                <div className="post-bottom">
-                    <hr />
-                    <div className="post-buttons">
-                        <a href={project.live} target="_blank">
-
-                            <button className="live">
-                                <img src="https://i.imgur.com/HBmPcA8.png" alt="heart" />
-                                Live
-                            </button>
-                        </a>
-                        <a href={project.git} target="_blank">
-                            <button className="github">
-                                <img src="https://i.imgur.com/2PKeewa.png" alt="comment" />
-                                GitHub
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <Post key={idx} project={project} />
         ));
     }
+    
     return (
         <section className="Projects">
-            <div className="fake-header">
-                <div className="social-logo">
-                    <img className="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Globe_icon-white.svg/840px-Globe_icon-white.svg.png?20150908170847" alt="globe" />
-                    <h1>Projects</h1>
-                </div>
-                <div className="hamburger">
-                    <div className="hamburger-bar"></div>
-                    <div className="hamburger-bar"></div>
-                    <div className="hamburger-bar"></div>
-                </div>
+            <div className="project-header pink-text">
+                <h1>Projects</h1>
+                <Flare side={'right'} />
             </div>
-            <div className="post-body">
+            <div className="project-feed">
                 {projects ? loaded() : <Loading />}
             </div>
         </section>

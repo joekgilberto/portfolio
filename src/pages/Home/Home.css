@@ -16,13 +16,14 @@
 }
 
 .fake-search-bar {
-    background-color: #f3f3f3ff;
+    background-color: #eff5ff;
     width: 402px;
     border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+    box-shadow: 0px 2.5px 2.5px #00000030;
 }
 
 .fake-search {
