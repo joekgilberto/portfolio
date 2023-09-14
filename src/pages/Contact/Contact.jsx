@@ -38,7 +38,7 @@ function Contact({ setPage }) {
                         {contact.map((c,idx)=>{
                             return(
                             <div className="contact-link" key={idx} style={{animation: `rise .5s forwards ${idx-(.75*idx)}s`}}>
-                                <h3 className="blue">{c.name}</h3>
+                                <h3 className="green">{c.name}</h3>
                                 <p><a className="blue-text" href={c.link} target="_blank">{c.linkText}</a></p>
                             </div>
                             )
