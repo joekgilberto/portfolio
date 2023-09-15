@@ -107,6 +107,7 @@ main {
     transform: translateY(50px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 100%;
@@ -144,10 +145,11 @@ main {
 }
 
 @keyframes scale-y {
-  0%{
+  0% {
     transform: scaleY(0);
   }
-  100%{
+
+  100% {
     transform: scaleY(1);
   }
 }

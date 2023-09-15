@@ -28,7 +28,7 @@
     padding: 30px;
 }
 
-.hello-there-title{
+.hello-there-title {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -55,10 +55,7 @@
     display: flex;
     flex-direction: column;
     align-items: elf;
-    background-color: #fff;
     padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0px 2px 2px #00000040;
 }
 
 .contact-link-list {
@@ -75,14 +72,13 @@
 }
 
 .contact-link h3 {
-    width: 200px;
+    width: 130px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     border-radius: 10px 0 0 10px;
-    border-right: 4px solid #fff;
     text-shadow: 0px 2px 2px #00000040;
 }
 
@@ -94,13 +90,19 @@
     align-items: center;
     padding-left: 20px;
     border-radius: 0 10px 10px 0;
-    background-image: linear-gradient(135deg, #EEF4FF, #dce9ff);
+    background-color: #fff;
     text-shadow: 0px 1px 1px #00000040;
 }
 
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 570px) {
     .contact-info {
         padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .contact-link h3 {
+        width: 200px;
     }
 }
 
@@ -139,6 +141,18 @@
     .contact-info {
         width: 75%;
         overflow-y: scroll;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 2px #00000040;
+    }
+
+    .contact-link{
+        gap: 5px
+    }
+
+    .contact-link p{
+        background-image: linear-gradient(135deg, #EEF4FF, #dce9ff);
     }
 }
 
@@ -146,15 +160,19 @@
     0% {
         transform: rotate(0deg)
     }
-    25%{
+
+    25% {
         transform: rotate(20deg)
     }
-    50%{
+
+    50% {
         transform: rotate(-10deg)
     }
-    75%{
+
+    75% {
         transform: rotate(20deg)
     }
+
     100% {
         transform: rotate(0deg)
     }
