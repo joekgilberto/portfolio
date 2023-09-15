@@ -6,6 +6,8 @@ import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading"
 
 function Contact({ setPage }) {
+
+    const [width, setWidth] = useState()
     const [contact, setContact] = useState(null);
 
     async function getContactData() {
@@ -14,11 +16,15 @@ function Contact({ setPage }) {
         setContact(data);
     };
 
+    function updateWidth(){
+        setWidth(window.innerWidth)
+    }
+
     useEffect(() => {
         setPage("contact")
         getContactData()
+        updateWidth()
     }, []);
-
 
     function loaded() {
         return (
@@ -41,7 +47,7 @@ function Contact({ setPage }) {
                             return (
                                 <div className="contact-link" key={idx} style={{ animation: `rise .5s forwards ${idx - (.75 * idx)}s` }}>
                                     <h3 className="green">{c.name}</h3>
-                                    <p><a className="blue-text" href={c.link} target="_blank">{c.linkText}</a></p>
+                                    <p><a className="blue-text" href={c.link} target="_blank">{width>=500?c.linkText:c.linkShort}</a></p>
                                 </div>
                             )
                         })}

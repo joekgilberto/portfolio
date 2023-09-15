@@ -13,12 +13,13 @@ header nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    overflow-x: scroll;
 }
 
 header nav a {
     color: #cfe2f3;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav a:hover {
@@ -27,8 +28,8 @@ header nav a:hover {
 }
 
 header nav div {
-    width: 110px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +38,11 @@ header nav div {
     margin-top: 10px;
 }
 
-#projects {
+#first{
+     margin-left: 10px;
+}
+
+#last {
     margin-right: 10px;
 }
 
@@ -74,12 +79,25 @@ header nav div {
 
 .active {
     color: #fff;
-    font-weight: bold;
     background-color: #00000091;
     border-radius: 15px 15px 0 0;
 }
 
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 445px) {
+    header nav div {
+        width: 100px;
+    }
+
+    header nav a {
+        font-size: 20px;
+    }
+
+    .active{
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 555px) {
     .fake-buttons {
         display: flex;
     }
@@ -94,6 +112,7 @@ header nav div {
 
     header nav div {
         width: 110px;
+        height: 60px;
     }
 
     header nav a {
@@ -106,6 +125,8 @@ header nav div {
 }
 
 @media only screen and (min-width: 560px) {
+
+
     .dot.blue {
         display: block;
     }

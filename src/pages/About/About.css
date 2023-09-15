@@ -3,26 +3,25 @@
     flex-direction: column-reverse;
     padding: 10px;
     font-family: sans-serif;
-    justify-content:flex-start;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 
 
-.About h1{
+.About h1 {
     font-size: 50px;
     margin: 0 0 15px 0;
     text-align: center;
 }
 
 .profile-card {
-    width: 325x;;
-    height: 600;
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     gap: 20px;
@@ -32,12 +31,12 @@
 }
 
 .headshot {
-    width: 275px;
+    width: 225px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,19 +44,18 @@
     margin: 20px 20px;
 }
 
-.info p{
+.info p {
     font-size: 20px;
 }
 
-.bio p{
-    opacity: 0;
+.bio p {
+    opacity: 100%;
     line-height: 1.4;
     text-align: justify;
-    animation: appear .5s forwards 2s;
 }
 
-.quick-facts{
-    width: 325px;
+.quick-facts {
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -70,7 +68,7 @@
     animation: rise 1s forwards;
 }
 
-.facts{
+.facts {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,43 +80,59 @@
     opacity: 50%;
 }
 
-.facts p{
+.facts p {
     font-size: 20px;
     font-weight: bold;
 }
 
+@media only screen and (min-width: 375px) {
+
+    .profile-card {
+        width: 325px;
+    }
+    
+    .headshot {
+        width: 275px;
+    }
+
+    .quick-facts {
+        width: 325px;
+    }
+}
+
 @media only screen and (min-width: 965px) {
 
-    .About{
+    .About {
         height: auto;
         flex-direction: row;
+        justify-content: center;
         align-items: flex-start;
         gap: 40px;
         padding: 50px;
     }
 
-    .About h1{
+    .About h1 {
         text-align: start;
     }
 
-    .info{
+    .info {
         align-items: flex-start;
     }
 
-    .info p{
+    .info p {
         font-size: 24px;
     }
 
-    .quick-facts{
+    .quick-facts {
         width: 100%;
         flex-direction: row;
     }
 
-    .facts{
+    .facts {
         gap: 10px;
     }
 
-    .facts p{
+    .facts p {
         font-size: 18px;
     }
 
@@ -126,10 +140,19 @@
         height: 20px;
     }
 
+    .bio p {
+        opacity: 0;
+        animation: appear .5s forwards 2s;
+    }
+
+    .profile-card {
+        margin: 20px 0px;
+    }
+
 }
 
 @media only screen and (min-width: 1080px) {
-    .facts p{
+    .facts p {
         font-size: 20px;
     }
 
@@ -137,8 +160,9 @@
         height: 30px;
     }
 }
+
 @media only screen and (min-width: 1180px) {
-    .facts p{
+    .facts p {
         font-size: 24px;
     }
 }

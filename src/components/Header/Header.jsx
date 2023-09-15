@@ -12,16 +12,16 @@ function Header({page}) {
       </section>
       <nav>
         <Link to='/'>
-          <div className={page==="home"?"active":null}>Home</div>
+          <div className={page==="home"?"active":null} id="first">Home</div>
         </Link>
         <Link to='/about'>
           <div className={page==="about"?"active":null}>About</div>
         </Link>
         <Link to='/projects'>
-          <div className={page==="projects"?"active":null} id="projects">Projects</div>
+          <div className={page==="projects"?"active":null}>Projects</div>
         </Link>
         <Link to='/contact'>
-          <div className={page==="contact"?"active":null}>Contact</div>
+          <div className={page==="contact"?"active":null} id="last">Contact</div>
         </Link>
       </nav>
     </header>
