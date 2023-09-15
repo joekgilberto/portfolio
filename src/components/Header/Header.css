@@ -19,7 +19,7 @@ header nav {
 header nav a {
     color: #cfe2f3;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header nav a:hover {
@@ -28,7 +28,7 @@ header nav a:hover {
 }
 
 header nav div {
-    width: 80px;
+    width: 70px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -81,6 +81,15 @@ header nav div {
     color: #fff;
     background-color: #00000091;
     border-radius: 15px 15px 0 0;
+}
+
+@media only screen and (min-width: 360px) {
+    header nav a {
+        font-size: 18px;
+    }
+    header nav div {
+        width: 80px;
+    }
 }
 
 @media only screen and (min-width: 445px) {
