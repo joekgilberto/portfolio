@@ -119,7 +119,7 @@
 
 @keyframes pink-height-load {
     0% {
-        height: 0;
+        height: 10px;
     }
     50%{
         height: 110%;
@@ -131,7 +131,7 @@
 
 @keyframes blue-height-load {
     0% {
-        height: 0;
+        height: 10px;
     }
     50%{
         height: 55%;
@@ -143,7 +143,7 @@
 
 @keyframes green-height-load {
     0% {
-        height: 0;
+        height: 10px;
     }
     50%{
         height: 27.5%;
