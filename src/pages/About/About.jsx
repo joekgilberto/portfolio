@@ -27,15 +27,15 @@ function About({ setPage }) {
                 <div className="info">
                     <h1 className="pink-text">About</h1>
                     <div className="quick-facts">
-                        <div className="facts">
+                        <div className="fact-one">
                             <img src={require(`../../assets/${about.resumeIcon}`)} alt='resume' />
                             <p><a className="blue-text" href={about.resume} target="_blank">Resume</a></p>
                         </div>
-                        <div className="facts">
+                        <div className="fact-two">
                             <img src={require(`../../assets/${about.locationIcon}`)} alt='resume' />
                             <p className="green-text">{about.location}</p>
                         </div>
-                        <div className="facts">
+                        <div className="fact-three">
                             <img src={require(`../../assets/${about.codingIcon}`)} alt='resume' />
                             <p className="green-text">{about.coding}</p>
                         </div>

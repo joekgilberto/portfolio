@@ -70,6 +70,21 @@
     gap: 15px;
 }
 
+.loading .pink.bar{
+    width: 100%;
+    animation: shuffle 1s infinite;
+}
+
+.loading .blue.bar{
+    width: 100%;
+    animation: shuffle 1s infinite reverse;
+}
+
+.loading .green.bar{
+    width: 100%;
+    animation: shuffle 1s infinite;
+}
+
 .Flare.upward {
     width: 186px !important;
 }

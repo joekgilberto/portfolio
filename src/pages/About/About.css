@@ -68,21 +68,34 @@
     animation: rise 1s forwards;
 }
 
-.facts {
+.quick-facts>div {
+    opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
-.facts img {
+.quick-facts>div img {
     height: 30px;
     opacity: 50%;
 }
 
-.facts p {
+.quick-facts>div p {
     font-size: 20px;
     font-weight: bold;
+}
+
+.fact-one{
+    animation: appear .5s forwards 1s;
+}
+
+.fact-two{
+    animation: appear .25s forwards 1.25s;
+}
+
+.fact-three{
+    animation: appear .5s forwards 1.5s;
 }
 
 @media only screen and (min-width: 375px) {
@@ -142,7 +155,7 @@
 
     .bio p {
         opacity: 0;
-        animation: appear .5s forwards 2s;
+        animation: appear .5s forwards .75s;
     }
 
     .profile-card {
