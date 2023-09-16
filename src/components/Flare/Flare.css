@@ -35,6 +35,18 @@
     gap: 15px;
 }
 
+.center .pink.bar{
+    animation: pink-load .5s forwards .5s, shuffle .5s forwards 2.5s;
+}
+
+.center .blue.bar{
+    animation: blue-load .5s forwards 1s, shuffle .5s forwards 2.75s
+}
+
+.center .green.bar{
+    animation: green-load .5s forwards 1.5s, shuffle .5s forwards 3s;
+}
+
 .left {
     flex-direction: column;
     justify-content: center;
@@ -150,6 +162,21 @@
     }
     100% {
         height: 25%;
+    }
+}
+
+@keyframes shuffle {
+    0%{
+        transform: translateY(0);
+    }   
+    33%{
+        transform: translateY(-10px);
+    }
+    66%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0);
     }
 }
 
