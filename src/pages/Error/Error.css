@@ -16,7 +16,7 @@
 }
 
 .Error h2 {
-    font-size: 44px;
+    font-size: 30px;
     margin: 0;
     font-weight: 400;
 }
@@ -78,7 +78,7 @@
 }
 
 .page-not-found p {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .ErrorFiller {
@@ -129,6 +129,15 @@
     }
 }
 
+@media only screen and (min-width: 500px) {
+    .Error h2 {
+        font-size: 44px;
+    }
+
+    .page-not-found p {
+        font-size: 22px;
+    }
+}
 
 @media only screen and (min-width: 620px) {
     .Error h1 {
