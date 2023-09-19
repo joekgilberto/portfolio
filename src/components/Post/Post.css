@@ -46,11 +46,13 @@
     border-radius: 50%;
 }
 
+.post-tools{
+    height: 100px;
+    font-weight: bold;
+}
+
 .post-description{
-    height: 640px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
     text-align: center;
 }
 
@@ -102,7 +104,6 @@
     }
 
     .post-description{
-        height: 640px;
         text-align: justify;
     }
 
@@ -114,10 +115,6 @@
 @media only screen and (min-width: 450px) {
     .post {
         width: 400px;
-    }
-
-    .post-description{
-        height: 450px;
     }
 
     .post-img {
@@ -144,10 +141,6 @@
         width: 500px;
     }
 
-    .post-description{
-        height: 340px;
-    }
-
     .post-img {
         width: 500px;
     }
@@ -160,5 +153,11 @@
 
     .post-buttons img{
         width: 40px;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    .post-description{
+        height: 360px;
     }
 }

@@ -21,6 +21,7 @@
 .feed {
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -52,5 +53,11 @@
     }
     .project-header h1 {
         font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    .feed {
+        flex-direction: row;
     }
 }
