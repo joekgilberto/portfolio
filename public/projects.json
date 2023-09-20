@@ -1,8 +1,8 @@
 [
   {
     "name": "Dynamic Duel",
-    "tools": "Built with Javascript, CSS, MongoDB and Mongoose, Express.js, React, Node.js, JWT Authentication, and a third-party API.  The backend is deployed on Heroku and the frontend on Netlify.",
-    "description":"Designed a full-stack MERN application utilizing a 3rd Party Superhero API.  Users are able to login using JWT authentication, look up superheroes, favorite their top three , and create posts that pit supers against each other in battle and socially with other users.  The frontend is designed with React and the backend is built using RESTful routes that allow CRUD operations.",
+    "tools": "Built with Javascript, CSS, MongoDB and Mongoose, Express.js, React, Node.js, JSON Web Token Authentication, and a third-party API.  The backend is deployed on Heroku and the frontend on Netlify.",
+    "description":"Designed a full-stack MERN application utilizing a third-party API.  Implemented JSON Web Token authentication for user login, enabling users to favorite pages, create posts, and interact socially with other users by leaving likes and comments on their posts..  The frontend is designed with React and the backend is built using RESTful routes that allow CRUD operations.",
     "live": "https://dynamic-duel.netlify.app/",
     "git": "https://github.com/joekgilberto/dynamic-duel",
     "image": "dynamic-duel.png"
