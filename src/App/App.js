@@ -1,10 +1,12 @@
 import './App.css';
 
+// IMPORT TOOLS
+import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+
 // IMPORT COMPONENTS
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
-import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
 
 // IMPORT PAGES
 import Home from '../pages/Home/Home';
