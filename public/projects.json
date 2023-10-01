@@ -1,7 +1,7 @@
 [
   {
     "name": "Date & Thyme",
-    "tools": "Built with Django and the Django REST Framework on the backend, and made with React, CSS, and Material UI on the frontend.  The backend is deployed by Heroku and the frontend by Netlify.",
+    "tools": "Built with Python, JavaScript, CSS, PostgreSQL, Django, React, and Material UI.  The backend is deployed by Heroku and the frontend by Netlify.",
     "description":"Created a full-stack Django and React application to track groceries and their expiration dates. Utilizes Django token authentication allowing users to login. Once logged in, users can add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, styled by CSS and Material UI components, and the backend is built using Django and Django REST Framework to create routes that enable CRUD operations for a user's groceries.",
     "live": "https://date-and-thyme.netlify.app/",
     "git": "https://github.com/joekgilberto/date-and-thyme",
