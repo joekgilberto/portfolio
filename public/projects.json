@@ -1,8 +1,8 @@
 [
   {
     "name": "Date & Thyme",
-    "tools": "Built with Django with the Django REST Framework on the backend, and made with React, CSS, and Material UI on the frontend.  The backend is deployed by Heroku and the frontend by Netlify.",
-    "description":"Created a full-stack Django and React application to track groceries and their expiration dates.  Utilized Django token authentication allowing users to login.  Once logged in, users can add grocery items to their fridge, and received in-app notifications when those items are about to expire or have expired.  The frontend is designed with React, styled by CSS and incorporating components from Material UI, and the backend is built using Django and the Django REST Framework to create routes that enable CRUD operations for a user's groceries.",
+    "tools": "Built with Django and the Django REST Framework on the backend, and made with React, CSS, and Material UI on the frontend.  The backend is deployed by Heroku and the frontend by Netlify.",
+    "description":"Created a full-stack Django and React application to track groceries and their expiration dates. Utilizes Django token authentication allowing users to login. Once logged in, users can add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, styled by CSS and Material UI components, and the backend is built using Django and Django REST Framework to create routes that enable CRUD operations for a user's groceries.",
     "live": "https://date-and-thyme.netlify.app/",
     "git": "https://github.com/joekgilberto/date-and-thyme",
     "image": "date-and-thyme.png"
@@ -18,7 +18,7 @@
   {
     "name": "Shop 'n' List",
     "tools": "Built with JavaScript, EJS, MongoDB and Mongoose, Express.js, Node.js, and Cloudinary.  Deployed on Heroku.",
-    "description":"Created a MEN-stack application to practice selling items and bidding on others' postings.  Utilized RESTful routes in an Express.js framework that provides users with CRUD operations for their listings and auction bids.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Utilizes Cloudinary to allow users to upload images for their lisitngs as well.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.",
+    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that provides listings and bids with CRUD operations.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their lisitngs as well.",
     "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
     "git": "https://github.com/joekgilberto/shop-n-list",
     "image": "shop-n-list.png"
