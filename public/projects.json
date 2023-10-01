@@ -18,7 +18,7 @@
   {
     "name": "Shop 'n' List",
     "tools": "Built with JavaScript, EJS, MongoDB and Mongoose, Express.js, Node.js, and Cloudinary.  Deployed on Heroku.",
-    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that provides listings and bids with CRUD operations.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their lisitngs as well.",
+    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that provides listings and bids with CRUD operations.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their listings as well.",
     "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
     "git": "https://github.com/joekgilberto/shop-n-list",
     "image": "shop-n-list.png"
