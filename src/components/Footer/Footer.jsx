@@ -1,9 +1,9 @@
 import "./Footer.css"
 
-function Footer(props) {
+function Footer() {
     return (
         <footer>
-            <p>Made by Joe Gilberto using React.</p>
+            <p>Made by Joe Gilberto using <a href="https://react.dev/" target="_blank">React</a>.</p>
         </footer>
     );
 }
