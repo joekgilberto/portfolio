@@ -2,7 +2,7 @@
   {
     "name": "Date & Thyme",
     "tools": "Built with Python, JavaScript, CSS, PostgreSQL, Django, React, and Material UI.  The backend is deployed by Heroku and the frontend by Netlify.",
-    "description":"Created a full-stack Django and React application to track groceries and their expiration dates. Utilizes Django token authentication allowing users to login. Once logged in, users can add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, styled by CSS and Material UI components, and the backend is built using Django and Django REST Framework to create routes that enable CRUD operations for a user's groceries.",
+    "description":"Created a full-stack Django and React application to track groceries and their expiration dates. Utilizes Django token authentication allowing users to login. Once logged in, users can add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, styled by CSS and Material UI components, and the backend is built using Django and the Django REST Framework to interact with a PostgreSQL database.",
     "live": "https://date-and-thyme.netlify.app/",
     "git": "https://github.com/joekgilberto/date-and-thyme",
     "image": "date-and-thyme.png"
@@ -10,7 +10,7 @@
   {
     "name": "Dynamic Duel",
     "tools": "Built with Javascript, CSS, MongoDB and Mongoose, Express.js, React, Node.js, JSON Web Token Authentication, and a third-party API.  The backend is deployed on Heroku and the frontend on Netlify.",
-    "description":"Designed a full-stack MERN application utilizing a third-party API to provide in superhero information.  Implemented JSON Web Token authentication for user login, enabling users to favorite superho pages, create posts about superheroes, and interact socially with other users by leaving likes and comments on their posts.  The frontend is designed with React and the backend is built using RESTful routes that allow CRUD operations.",
+    "description":"Designed a full-stack MERN application utilizing a third-party API to provide in superhero information.  Implemented JSON Web Token authentication for user login, enabling users to favorite superho pages, create posts about superheroes, and interact socially with other users by leaving likes and comments on their posts.  The frontend is designed with React and CSS, and the backend is built using RESTful Express.js routes that interact with a MongoDB database.",
     "live": "https://dynamic-duel.netlify.app/",
     "git": "https://github.com/joekgilberto/dynamic-duel",
     "image": "dynamic-duel.png"
@@ -18,7 +18,7 @@
   {
     "name": "Shop 'n' List",
     "tools": "Built with JavaScript, EJS, MongoDB and Mongoose, Express.js, Node.js, and Cloudinary.  Deployed on Heroku.",
-    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that provides listings and bids with CRUD operations.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their listings as well.",
+    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that interact with a MongoDB database.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their listings as well.",
     "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
     "git": "https://github.com/joekgilberto/shop-n-list",
     "image": "shop-n-list.png"
