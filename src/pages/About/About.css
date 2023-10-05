@@ -52,6 +52,7 @@
     opacity: 100%;
     line-height: 1.4;
     text-align: justify;
+    margin: 20px;
 }
 
 .quick-facts {
@@ -132,10 +133,6 @@
         align-items: flex-start;
     }
 
-    .info p {
-        font-size: 24px;
-    }
-
     .quick-facts {
         width: 100%;
         flex-direction: row;
@@ -156,6 +153,7 @@
     .bio p {
         opacity: 0;
         animation: appear .5s forwards .75s;
+        margin: 10px 0 20px 0;
     }
 
     .profile-card {

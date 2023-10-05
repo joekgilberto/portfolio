@@ -1,12 +1,11 @@
 {
   "name": "Joe Gilberto",
   "headshot": "headshot.jpg",
-  "bio": "Joe Gilberto is a Boston-based, full-stack software engineer motivated by creative problem-solving and fruitful teamwork.  In his previous position, as a marketing producer, he became well versed in project management.  He coordinated up to a dozen projects at a time, collaborating amongst a wide variety of positions, building complex schedules, and managing stakeholder relations.  Now, as he delves into the field of software engineering, he is looking to bring his cooperation, time management, and clear communication to a vast assortment of challenging projects.",
+  "bio": "I am a versatile full-stack software engineer motivated by creative problem-solving and fruitful teamwork. During my time as a marketing producer, I honed my skills in project management, successfully overseeing up to a dozen projects concurrently. This involved working closely with professionals from diverse roles, creating intricate project schedules, and cultivating strong stakeholder relationships.  My transition into software engineering has allowed me to further develop my coding abilities. I am now proficient in crafting intuitive and responsive frontend designs while also architecting and maintaining robust backend systems and databases. I am excited to leverage my expertise in development, along with my strengths in cooperation, time management, and effective communication, to tackle a wide range of challenging projects.",
   "resumeIcon": "resume.png",
   "resume": "https://drive.google.com/file/d/1AAukBVj_Pqz42LQVwU9zBxom8PvLo1nj/view?usp=sharing",
   "location": "Boston, MA",
   "locationIcon": "location.png",
   "coding": "General Assembly",
   "codingIcon": "coding.png"
-
 }
