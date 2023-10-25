@@ -1,8 +1,8 @@
 import './App.css';
 
 // IMPORT TOOLS
-import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 // IMPORT COMPONENTS
 import Header from '../components/Header/Header';
