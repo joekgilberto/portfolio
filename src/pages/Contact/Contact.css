@@ -50,7 +50,7 @@
 }
 
 .wave {
-    animation: wave-animation 3s infinite 1.5s;
+    animation: wave-animation 3s infinite 2s;
 }
 
 .contact-info {

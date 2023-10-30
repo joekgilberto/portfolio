@@ -32,7 +32,6 @@ function Contact({ setPage }) {
                 <div className="contact-sidebar">
                     <h1 className="pink-text">Contact</h1>
                     <Flare side={'upward'} />
-                    <Flare side={'inline'} />
 
                 </div>
                 <div className="contact-info">
