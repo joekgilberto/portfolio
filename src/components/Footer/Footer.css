@@ -39,3 +39,7 @@ footer>p {
 footer a {
     color: inherit;
 }
+
+footer:hover a{
+    text-decoration: underline;
+}
