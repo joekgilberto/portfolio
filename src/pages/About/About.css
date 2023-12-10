@@ -55,6 +55,10 @@
     margin: 20px;
 }
 
+.bio-blob{
+    padding: 0 20px;
+}
+
 .quick-facts {
     width: 270px;
     display: flex;
@@ -70,6 +74,8 @@
 }
 
 .quick-facts>div {
+    height: 50px;
+
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -85,6 +91,7 @@
 .quick-facts>div p {
     font-size: 20px;
     font-weight: bold;
+    margin: auto 0;
 }
 
 .fact-one{

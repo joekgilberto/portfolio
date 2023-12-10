@@ -26,6 +26,7 @@ function About({ setPage }) {
 
                 <div className="info">
                     <h1 className="pink-text">About</h1>
+                    <div className="bio">
                     <div className="quick-facts">
                         <div className="fact-one">
                             <img src={require(`../../assets/${about.resumeIcon}`)} alt='resume' />
@@ -40,8 +41,9 @@ function About({ setPage }) {
                             <p className="green-text">{about.coding}</p>
                         </div>
                     </div>
-                    <div className="bio">
-                        <p>{about.bio}</p>
+                        <p className="bio-blob">{about.bio1}</p>
+                        <p className="bio-blob">{about.bio2}</p>
+                        <p className="bio-blob">{about.bio3}</p>
                     </div>
                 </div>
                 <div className="profile-card">
