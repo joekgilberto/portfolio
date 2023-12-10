@@ -1,4 +1,3 @@
-
 .post {
     width: 300px;
     opacity: 0;
@@ -15,7 +14,7 @@
     width: 300px;
 }
 
-.post p{
+.post p {
     padding: 0 20px;
     font-size: 20px;
     line-height: 1.5;
@@ -48,21 +47,33 @@
     border-radius: 50%;
 }
 
-.post-tools{
-    height: 100px;
-    font-weight: bold;
+.post-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
 }
 
-.post-description{
+.post-tools {
+    color: #778bb1;
+    margin: 0 20px;
+    padding: 10px !important;
+    background-color: #dce9ff;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.post-description {
     height: auto;
     text-align: center;
+    margin: 0;
 }
 
-.post-bottom{
+.post-bottom {
     padding-bottom: 20px;
 }
 
-.post-buttons{
+.post-buttons {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -70,12 +81,12 @@
     gap: 10px;
 }
 
-.post-buttons a{
+.post-buttons a {
     text-decoration: none;
 
 }
 
-.post-buttons button{
+.post-buttons button {
     width: 130px;
     height: 65px;
     display: flex;
@@ -90,7 +101,7 @@
     font-weight: bold;
 }
 
-.post-buttons img{
+.post-buttons img {
     width: 30px;
     height: auto;
 }
@@ -105,11 +116,11 @@
         width: 320px;
     }
 
-    .post-description{
+    .post-description {
         text-align: justify;
     }
 
-    .post-buttons button{
+    .post-buttons button {
         width: 140px;
     }
 }
@@ -123,17 +134,17 @@
         width: 400px;
     }
 
-    .post-buttons button{
+    .post-buttons button {
         width: 140px;
         height: 65px;
         font-size: 26px;
     }
 
-    .post-buttons img{
+    .post-buttons img {
         width: 30px;
     }
 
-    .post-buttons{
+    .post-buttons {
         gap: 30px
     }
 }
@@ -147,19 +158,19 @@
         width: 500px;
     }
 
-    .post-buttons button{
+    .post-buttons button {
         width: 180px;
         height: 75px;
         font-size: 30px;
     }
 
-    .post-buttons img{
+    .post-buttons img {
         width: 40px;
     }
 }
 
 @media only screen and (min-width: 1160px) {
-    .post-description{
-        height: 420px;
+    .post-info {
+        height: 450px;
     }
 }

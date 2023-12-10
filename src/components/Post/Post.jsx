@@ -12,7 +12,10 @@ export default function Post({project, idx}){
                     </div>
                     <img className="post-img" src={require(`../../assets/${project.image}`)} />
                     <Flare side={'inline'} />
-                    <p className="post-description"><span className="post-tools">{project.tools}</span> {project.description}</p>
+                    <div className="post-info">
+                    <p className="post-tools">{project.tools}</p>
+                    <p className="post-description">{project.description}</p>
+                    </div>
                 </div>
                 <div className="post-bottom">
                     <div className="post-buttons">
@@ -23,7 +26,7 @@ export default function Post({project, idx}){
                                 Live
                             </button>
                         </a>
-                        <a href={project.git} target="_blank">
+                        <a href={project.repo} target="_blank">
                             <button className="blue">
                                 <img src={require('../../assets/comment.png')} alt="comment" />
                                 GitHub
