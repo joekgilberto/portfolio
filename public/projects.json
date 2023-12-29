@@ -1,16 +1,16 @@
 [
   {
     "name": "Date & Thyme",
-    "tools": "Python and Django backend, a JavaScript, React, and Material UI frontend, and a PostgreSQL database, and deployed on Netlify and Heroku.",
-    "description":"Created a full-stack Django and React application to track groceries and their expiration dates. Utilizes Django token authentication allowing users to login. Once logged in, users can add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, incorporating Material UI components, and the backend is built using Django and the Django REST Framework to interact with a PostgreSQL database.",
+    "tools": "Python and Django backend, a JavaScript, React, and Material UI frontend, and a PostgreSQL database.  Deployed on Netlify and Heroku.",
+    "description":"Created a full-stack Django, React, and PostgreSQL application to track a user's groceries and respective expiration dates. Utilizes Django token authentication allowing users to login, add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, incorporating Material UI components, using Axios API calls to the Django backend built using the Django REST Framework, interacting with a PostgreSQL database.",
     "live": "https://date-and-thyme.netlify.app/",
     "repo": "https://github.com/joekgilberto/date-and-thyme",
     "image": "date-and-thyme.png"
   },
   {
     "name": "Dynamic Duel",
-    "tools": "Javascript, MongoDB and Mongoose, Express.js, React, Node.js, JSON Web Token Authentication, and a third-party API.  Deployed on Netlify and Heroku.",
-    "description":"Designed a full-stack MERN application utilizing a third-party API to provide in superhero information.  Implemented JSON Web Token authentication for user login, enabling users to favorite superho pages, create posts about superheroes, and interact socially with other users by leaving likes and comments on their posts.  The frontend is designed with React, and the backend is built using RESTful Express.js routes that interact with a MongoDB database.",
+    "tools": "Javascript, MongoDB and Mongoose, Express.js, React, Node.js stack, with JSON Web Token Authentication, and a third-party API.  Deployed on Netlify and Heroku.",
+    "description":"Designed a full-stack MERN application utilizing a third-party API to serve superhero information.  Implemented JSON Web Token authentication for user login, enabling them to favorite superhero pages, create posts about superheroes, and interact socially with other users by leaving likes and comments on their posts.  The frontend is designed with React, and the backend is built using Node.js and Express.js routes that interact with a MongoDB database structured through Mongoose schemas.",
     "live": "https://dynamic-duel.netlify.app/",
     "repo": "https://github.com/joekgilberto/dynamic-duel",
     "image": "dynamic-duel.png"
@@ -18,23 +18,23 @@
   {
     "name": "Blu-Rave",
     "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.  Deployed on Netlify and Azure",
-    "description": "Built a full-stack web application to track a user's blu-ray collection, including specific details about edition, format, definition, and further notes. Auth0 authentication enables users to login and access, add, edit, and delete blu-rays in their collection.  Auth0 authenticated Axios API calls allow a React application to interact with an ASP.NET web API with RESTful routes to perform CRUD operations on a PostgreSQL database.",
+    "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.",
     "live": "https://blu-rave.netlify.app/",
     "repo": "https://github.com/joekgilberto/blu-rave",
     "image": "blu-rave.png"
   },
   {
     "name": "Shop 'n' List",
-    "tools": "JavaScript, EJS, MongoDB and Mongoose, Express.js, Node.js, and Cloudinary.  Deployed on Heroku.",
-    "description":"Created a MEN-stack application to practice selling items and bidding on others'.  Mongoose schemas were applied to organize data for the listings, their bidding auctions, and categories of items.  Utilized RESTful routes in an Express.js framework that interact with a MongoDB database.  Once logged in through Google OAuth, users can create detailed posts, edit those posts, and delete them on pages designed with EJS and CSS styling.  Additionally, employs Cloudinary to allow users to upload images for their listings as well.",
+    "tools": "JavaScript, EJS, MongoDB and Mongoose, Express.js, Node.js, and Cloudinary stack, with Google OAuth 2.0 Authentication.  Deployed on Heroku.",
+    "description":"Collaborated on a MEN-stack application for users to practice selling items and bidding on others'.  Once logged in through Google OAuth 2.0, users can create detailed posts to sell items, categorize their listings, and bid on other's auctions.  The pages are designed with EJS and CSS styling and uses Node.js and Express.js routes to interact with a MongoDB database structured through Mongoose schemas.  Additionally, it employs Cloudinary to allow users to upload images for their listings.",
     "live": "https://shop-n-list-bce500242f47.herokuapp.com/listings",
     "repo": "https://github.com/joekgilberto/shop-n-list",
     "image": "shop-n-list.png"
   },
     {
       "name": "Battleship",
-      "tools": "JavaScript, HMTL, and CSS, and deployed on GitHub Pages.",
-      "description":"Made a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a thoughtfully designed game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.",
+      "tools": "JavaScript, HMTL, and CSS webpage.  Deployed on GitHub Pages.",
+      "description":"Made a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.",
       "live": "https://joekgilberto.github.io/battleship/",
       "repo": "https://github.com/joekgilberto/battleship",
       "image": "battleship.png"
