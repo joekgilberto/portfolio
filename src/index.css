@@ -4,7 +4,8 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  max-height: -webkit-fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
