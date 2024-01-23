@@ -7,6 +7,8 @@ Hello!  I am Joe Gilberto, a full-stack software engineer who has completed a so
 ## Deployment
 [See the live site here.](https://joekgilberto.com/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7801e382-3c59-42b5-82e1-14c197c42a67/deploy-status)](https://app.netlify.com/sites/joekgilberto/deploys)
+
 ## Technologies Used
 This app utilizes JavaScript, JSON, CSS, React, and Node.js to showcase my career, my work, and a little bit about who I am.
 
