@@ -60,48 +60,6 @@ main {
   color: #5acc29ff;
 }
 
-@media only screen and (min-height: 310px) {
-  main {
-    height: 60%;
-  }
-
-}
-
-@media only screen and (min-height: 350px) {
-  main {
-    height: 65%;
-  }
-
-}
-
-@media only screen and (min-height: 400px) {
-  main {
-    height: 70%;
-  }
-
-}
-
-@media only screen and (min-height: 460px) {
-  main {
-    height: 75%;
-  }
-
-}
-
-@media only screen and (min-height: 550px) {
-  main {
-    height: 82.5%;
-  }
-
-}
-
-@media only screen and (min-height: 705px) {
-  main {
-    height: 85%;
-  }
-
-}
-
 @keyframes rise {
   0% {
     transform: translateY(50px);
