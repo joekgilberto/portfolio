@@ -1,18 +1,36 @@
 .About {
+    padding: 30px 10px 10px 10px;
+
+}
+
+.content{
     display: flex;
     flex-direction: column-reverse;
-    padding: 30px 10px 10px 10px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     justify-content: flex-end;
     align-items: flex-start;
 }
-
-
 
 .About h1 {
     font-size: 50px;
     margin: 0 0 15px 0;
     text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.skills p{
+    margin: 0 !important;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px #00000040;
 }
 
 .profile-card {
@@ -46,6 +64,13 @@
 
 .info p {
     font-size: 20px;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bio p {
@@ -123,17 +148,18 @@
 
 @media only screen and (min-width: 965px) {
 
-    .About {
+    .content {
         height: auto;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
         gap: 40px;
-        padding: 50px;
+        padding: 0 20px 20px 20px;
     }
 
     .About h1 {
         text-align: start;
+        margin: 0 0 0 40px;
     }
 
     .info {

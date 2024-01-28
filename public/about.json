@@ -9,5 +9,30 @@
   "location": "Boston, MA",
   "locationIcon": "location.png",
   "coding": "General Assembly",
-  "codingIcon": "coding.png"
+  "codingIcon": "coding.png",
+  "skills": [
+    "C#",
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Razor Pages",
+    "EJS",
+    ".NET",
+    "Node.js",
+    "ASP.NET",
+    "Django",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "PostgreSQL",
+    "NoSQL Databases",
+    "SQL Databases",
+    "React",
+    "Material UI",
+    "Redux",
+    "MVC Architecture",
+    "RESTful APIs",
+    "Git"
+  ]
 }
