@@ -83,6 +83,7 @@
 .bio-blob{
     margin: 5px 0!important;
     padding: 0;
+    text-shadow: 0px 1px 1px #00000040;
 }
 
 .quick-facts {
