@@ -14,15 +14,20 @@ header {
 header nav {
     display: none;
     display: flex;
-    justify-content: space-between;
     width: 100%;
     overflow-x: scroll;
+    padding: 0 10px;
 }
 
 header nav a {
+    width: 100%;
     color: #cfe2f3;
     text-decoration: none;
     font-size: 16px;
+}
+
+header nav a div {
+    width: 100%;
 }
 
 header nav a:hover {
@@ -31,8 +36,7 @@ header nav a:hover {
 }
 
 header nav div {
-    width: 70px;
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,20 +45,13 @@ header nav div {
     margin-top: 10px;
 }
 
-#first{
-     margin-left: 10px;
-}
-
-#last {
-    margin-right: 10px;
-}
-
 .fake-buttons {
+    height: 70px;
+    width: auto;
     display: none;
     justify-content: space-between;
     align-items: center;
-    width: auto;
-    height: 70px;
+    gap: 5px;
     padding: 0 0 0 20px;
 }
 
@@ -78,6 +75,7 @@ header nav div {
 .dot.green {
     display: none;
     animation: green-dot .5s forwards 3s;
+    margin-right: 10px;
 }
 
 .active {
@@ -90,16 +88,9 @@ header nav div {
     header nav a {
         font-size: 18px;
     }
-    header nav div {
-        width: 80px;
-    }
 }
 
 @media only screen and (min-width: 445px) {
-    header nav div {
-        width: 100px;
-    }
-
     header nav a {
         font-size: 20px;
     }
@@ -118,15 +109,6 @@ header nav div {
         display: block;
     }
 
-    header nav {
-        justify-content: space-evenly;
-    }
-
-    header nav div {
-        width: 110px;
-        height: 60px;
-    }
-
     header nav a {
         font-size: 24px;
     }
@@ -139,10 +121,7 @@ header nav div {
 @media only screen and (min-width: 560px) {
 
 
-    .dot.blue {
-        display: block;
-    }
-
+    .dot.blue,
     .dot.green {
         display: block;
     }
@@ -150,14 +129,6 @@ header nav div {
     .fake-buttons {
         width: 90px;
     }
-}
-
-@media only screen and (min-width: 670px) {
-
-    header nav div {
-        width: 135px;
-    }
-
 }
 
 @media only screen and (min-width: 695px) {
@@ -176,22 +147,6 @@ header nav div {
         border-radius: 50%;
         width: 20px;
         height: 20px;
-    }
-
-}
-
-@media only screen and (min-width: 890px) {
-
-    header nav div {
-        width: 180px;
-    }
-
-}
-
-@media only screen and (min-width: 1060px) {
-
-    header nav div {
-        width: 220px;
     }
 
 }
