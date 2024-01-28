@@ -1,6 +1,9 @@
 .App {
-  width: 95%;
-  height: 95%;
+  grid-column: 2 / span 48;
+  grid-row: 2 / span 48;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 90px auto 40px;
   font-family: 'Roboto', sans-serif;
   animation: scale-y .25s forwards;
 }
@@ -25,14 +28,16 @@ a:hover {
 }
 
 main {
-  background-image: linear-gradient(135deg, #fff, #dce9ff);
-  border-radius: 0 0 15px 15px;
-  height: 50%;
+  height: 100%;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
   display: flex;
   justify-content: center;
   align-self: center;
-  overflow-y: scroll;
+  background-image: linear-gradient(135deg, #fff, #dce9ff);
+  border-radius: 0 0 15px 15px;
   box-shadow: 5px 5px 10px #00000060;
+  overflow-y: scroll;
 }
 
 

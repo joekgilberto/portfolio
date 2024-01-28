@@ -7,10 +7,15 @@ body {
   height: 100vh;
   max-width: -webkit-fill-available;
   max-height: -webkit-fill-available;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: linear-gradient(135deg, #6d9eebff, #351c75ff);
   padding: 0;
   margin: 0;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(50,1fr);
+  grid-template-rows: repeat(50,1fr);
 }

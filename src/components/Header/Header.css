@@ -1,5 +1,8 @@
 header {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
     display: flex;
+    align-items: flex-end;
     font-family: 'Roboto', sans-serif;
     background-color: #00000091;
     border-radius: 15px 15px 0 0;
