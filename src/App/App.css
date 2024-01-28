@@ -1,6 +1,6 @@
 .App {
-  width: 95vw;
-  height: 95vh;
+  width: 95%;
+  height: 95%;
   font-family: 'Roboto', sans-serif;
   animation: scale-y .25s forwards;
 }
