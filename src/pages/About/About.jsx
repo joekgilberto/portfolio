@@ -53,9 +53,9 @@ function About({ setPage }) {
                                     }} >{skill}</p>
                                 })}
                             </div>
-                            <p className="bio-blob">{about.bio1}</p>
-                            <p className="bio-blob">{about.bio2}</p>
-                            <p className="bio-blob">{about.bio3}</p>
+                            <p className="bio-segment">{about.bio1}</p>
+                            <p className="bio-segment">{about.bio2}</p>
+                            <p className="bio-segment">{about.bio3}</p>
                         </div>
                     </div>
                     <div className="profile-card">

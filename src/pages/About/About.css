@@ -80,7 +80,8 @@
     margin: 20px;
 }
 
-.bio-blob{
+.bio-segment{
+    width: 100%;
     margin: 5px 0!important;
     padding: 0;
     text-shadow: 0px 1px 1px #00000040;
