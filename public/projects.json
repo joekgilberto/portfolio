@@ -1,5 +1,21 @@
 [
   {
+    "name": "Rabbt Ears",
+    "tools": "Javascript, MongoDB and Mongoose, Express.js, React, Redux, Node.js stack, with JSON Web Token Authentication, and a third-party API.  Deployed on Netlify and Heroku.",
+    "description":"Designed a full-stack MERN application utilizing a third-party API to pull in television show data.  Implemented JSON Web Token authentication for user login, enabling them to rate their favorite (and least favorite) shows.  The frontend is designed with React with a Redux library, and the backend is built using Node.js and Express.js routes that interact with a MongoDB database structured through Mongoose schemas.",
+    "live": "https://rabbt-ears.netlify.app/",
+    "repo": "https://github.com/joekgilberto/rabbt-ears",
+    "image": "rabbt-ears.png"
+  },
+  {
+    "name": "Blu-Rave",
+    "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.  Deployed on Netlify and Azure",
+    "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.",
+    "live": "https://blu-rave.netlify.app/",
+    "repo": "https://github.com/joekgilberto/blu-rave",
+    "image": "blu-rave.png"
+  },
+  {
     "name": "Date & Thyme",
     "tools": "Python and Django backend, a JavaScript, React, and Material UI frontend, and a PostgreSQL database.  Deployed on Netlify and Heroku.",
     "description":"Created a full-stack Django, React, and PostgreSQL application to track a user's groceries and respective expiration dates. Utilizes Django token authentication allowing users to login, add groceries to their fridge, and receive in-app notifications when those items are going to expire. The frontend is designed with React, incorporating Material UI components, using Axios API calls to the Django backend built using the Django REST Framework, interacting with a PostgreSQL database.",
@@ -14,14 +30,6 @@
     "live": "https://dynamic-duel.netlify.app/",
     "repo": "https://github.com/joekgilberto/dynamic-duel",
     "image": "dynamic-duel.png"
-  },
-  {
-    "name": "Blu-Rave",
-    "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.  Deployed on Netlify and Azure",
-    "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.",
-    "live": "https://blu-rave.netlify.app/",
-    "repo": "https://github.com/joekgilberto/blu-rave",
-    "image": "blu-rave.png"
   },
   {
     "name": "Shop 'n' List",
