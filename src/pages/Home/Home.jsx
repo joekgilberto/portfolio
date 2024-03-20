@@ -15,7 +15,7 @@ function Home({setPage}) {
         <section className="Home">
             <h1>JOE GILBERTO</h1>
             <div className="fake-search-bar">
-                <h2>Full-Stack Software Engineer</h2>
+                <h2>Software Engineer</h2>
                 <Link to='/about'>
                     <img className="fake-search" src={require('../../assets/search.png')} alt="fake search icon" />
                 </Link>

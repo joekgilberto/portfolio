@@ -1,6 +1,6 @@
 # Joe Gilberto
 
-Hello!  I am Joe Gilberto, a full-stack software engineer who has completed a software engineering immersive through General Assembly, and this is my portfolio.  This portfolio contains some information about me, my contact information, my resume, and some projects I have worked on.
+Hello!  I am Joe Gilberto, a software engineer who has completed a software engineering immersive through General Assembly, and this is my portfolio.  This portfolio contains some information about me, my contact information, my resume, and some projects I have worked on.
 
 ![Homepage](src/assets/home.png)
 
