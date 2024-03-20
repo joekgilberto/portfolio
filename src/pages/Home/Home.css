@@ -18,10 +18,12 @@
 }
 
 .Home h2 {
+    flex: 1;
     font-size: 18px;
     font-weight: 300;
     text-align: center;
-    margin: 10px 0 10px 145px;
+    margin: 10px 0;
+    padding-left: 40px;
 }
 
 .fake-search-bar {
@@ -41,7 +43,7 @@
 .fake-search {
     width: 20px;
     height: 20px;
-    margin: 0 0 0 100px;
+    margin: 0 20px 0 0;
     animation: rotate 1s forwards 2.5s;
 }
 
@@ -101,6 +103,7 @@
 
     .Home h2 {
         font-size: 30px;
+        padding-left: 50px;
     }
 
     .fake-search-bar {
@@ -121,6 +124,7 @@
 
     .Home h2 {
         font-size: 40px;
+        padding-left: 60px;
     }
 
     .fake-search-bar {
