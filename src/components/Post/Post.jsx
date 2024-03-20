@@ -7,8 +7,8 @@ export default function Post({project, idx}){
         <section className="post" style={{animation: `rise 1s forwards ${idx-(.75*idx)}s`}}>
                 <div className="post-top">
                     <div className="post-title">
-                        <p className="green">JG</p>
-                        <h1 className="green-text">{project.name}</h1>
+                        <p className="blue">JG</p>
+                        <h1 className="pink-text">{project.name}</h1>
                     </div>
                     <img className="post-img" src={require(`../../assets/${project.image}`)} />
                     <Flare side={'inline'} />

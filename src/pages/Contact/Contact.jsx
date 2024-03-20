@@ -30,14 +30,14 @@ function Contact({ setPage }) {
         return (
             <section className="Contact">
                 <div className="contact-sidebar">
-                    <h1 className="pink-text">Contact</h1>
+                    <h1 className="green-text">Contact</h1>
                     <Flare side={'upward'} />
 
                 </div>
                 <div className="contact-info">
                     <div className="hello-there">
                         <div className="hello-there-title">
-                            <h2 className="green-text">Hello, there!</h2><h2 className="wave">👋</h2>
+                            <h2 className="pink-text">Hello, there!</h2><h2 className="wave">👋</h2>
                         </div>
                         <p>Feel free to email me, check out my work, connect on LinkedIn, or message me through the following form!  I would love to get in touch.</p>
                     </div>

@@ -95,7 +95,7 @@ header nav div {
         font-size: 20px;
     }
 
-    .active{
+    .active {
         font-weight: bold;
     }
 }
@@ -152,37 +152,43 @@ header nav div {
 }
 
 @keyframes pink-dot {
-    0%{
+    0% {
         background-color: #ff68b8ff;
     }
-    50%{
+
+    50% {
         background-color: #ffb8de;
     }
-    100%{
+
+    100% {
         background-color: #ff68b8ff;
     }
 }
 
 @keyframes blue-dot {
-    0%{
-        background-color: #4a86e8ff;
+    0% {
+        background-color: #438bff;
     }
-    50%{
+
+    50% {
         background-color: #a4c7ff;
     }
-    100%{
-        background-color: #4a86e8ff;
+
+    100% {
+        background-color: #438bff;
     }
 }
 
 @keyframes green-dot {
-    0%{
+    0% {
         background-color: #5acc29ff;
     }
-    50%{
+
+    50% {
         background-color: #8ef462;
     }
-    100%{
+
+    100% {
         background-color: #5acc29ff;
     }
 }
