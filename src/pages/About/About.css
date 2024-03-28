@@ -10,10 +10,11 @@
     align-items: flex-start;
 }
 
-.About h1 {
+.About h2 {
     font-size: 50px;
     margin: 0 0 15px 0;
     text-align: center;
+    text-shadow: 0px 2px 2px #00000040;
 }
 
 .skills{
@@ -159,7 +160,7 @@
         padding: 0 20px 20px 20px;
     }
 
-    .About h1 {
+    .About h2 {
         text-align: start;
         margin: 0 0 0 40px;
     }
