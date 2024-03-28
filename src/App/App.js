@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className='App'>
+      <div className='window'>
       <Header page={page} />
       <main>
         <Routes>
@@ -30,6 +31,7 @@ function App() {
           <Route path='/*' element={<Error setPage={setPage} />} name='error' />
         </Routes>
       </main>
+      </div>
       <Footer />
     </div>
   );

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: "DM Mono", monospace;
 }
 
 body {
@@ -7,15 +10,7 @@ body {
   height: 100vh;
   max-width: -webkit-fill-available;
   max-height: -webkit-fill-available;
-  background-image: linear-gradient(135deg, #438bff, #351c75ff);
+  background-image: linear-gradient(135deg, #b6ffe5, #5ebcff, #5e81ff, #5ebcff, #b6ffe5);
   padding: 0;
   margin: 0;
-}
-
-#root{
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(50,1fr);
-  grid-template-rows: repeat(50,1fr);
 }

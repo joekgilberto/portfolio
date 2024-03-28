@@ -6,7 +6,6 @@
 .content{
     display: flex;
     flex-direction: column-reverse;
-    font-family: 'Roboto', sans-serif;
     justify-content: flex-end;
     align-items: flex-start;
 }
