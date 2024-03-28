@@ -14,7 +14,7 @@ This app utilizes JavaScript, JSON, CSS, React, and Node.js to showcase my caree
 
 ## Acknowledgements
 Thank you to [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) for providing the following public domain images:
-- [Search icon](https://commons.wikimedia.org/wiki/File:Search-icon.png)
+- [Search icon](https://commons.wikimedia.org/wiki/File:Google_Magnifying_Glass.svg)
 - [Document icon](https://commons.wikimedia.org/wiki/File:Document_(89521)_-_The_Noun_Project.svg)
 - [Pin icon](https://commons.wikimedia.org/wiki/File:Pin_point_location_SVG_black.svg)
 - [Coding icon](https://commons.wikimedia.org/wiki/File:Icon_(80027)_-_The_Noun_Project.svg)

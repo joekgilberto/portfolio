@@ -45,8 +45,9 @@
 .fake-search {
     width: 20px;
     height: 20px;
-    margin: 0 20px 0 0;
+    margin: 5px 20px 0 0;
     animation: rotate 1s forwards 2.5s;
+    opacity: 40%;
 }
 
 @media only screen and (min-width: 360px) {

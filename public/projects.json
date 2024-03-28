@@ -2,7 +2,7 @@
   {
     "name": "Rabbt Ears",
     "tools": "Javascript, MongoDB and Mongoose, Express.js, React, Redux, Node.js stack, with JSON Web Token Authentication, and a third-party API.",
-    "description":"Designed a full-stack MERN application utilizing a third-party API to pull in television show data.  Implemented JSON Web Token authentication for user login, enabling them to rate their favorite (and least favorite) shows.  The frontend is designed with React with a Redux library, and the backend is built using Node.js and Express.js routes that interact with a MongoDB database structured through Mongoose schemas.",
+    "description":"Designed a full-stack MERN application utilizing a third-party API to pull in television show data.  Implemented JSON Web Token authentication for user login, enabling them to rate their favorite (and least favorite) shows.  The frontend is designed with React with a Redux library, and the backend is built using Node.js and Express.js routes that interact with a MongoDB database structured through Mongoose schemas.  Have fun rating your favorite (and least favorite) T.V. shows and reading up on others' reviews!",
     "live": "",
     "repo": "https://github.com/joekgilberto/rabbt-ears",
     "image": "rabbt-ears.png"
@@ -10,7 +10,7 @@
   {
     "name": "Blu-Rave",
     "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.",
-    "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.",
+    "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.  Perfect for any physical media collector looking to have detailed record of this illustrious colleciton, whether it be in standard def or the all-mighty 4K!.",
     "live": "",
     "repo": "https://github.com/joekgilberto/blu-rave",
     "image": "blu-rave.png"
@@ -42,7 +42,7 @@
     {
       "name": "Battleship",
       "tools": "JavaScript, HMTL, and CSS webpage.  Deployed on GitHub Pages.",
-      "description":"Made a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.",
+      "description":"Made a playable version of Battleship against a computer opponent.  Utilized HTML and CSS to build a game board using flexbox and grid layouts.  Wrote JavaScript in MVC architecture that generates random game boards for both the computer and player using recursion, and enabled the computer to make informed guesses by interacting with DOM Elements.  A great and challenging project that kicked off Joe's software engineering bootcamp!  He remains incredibly proud of his work, and the detailed logic behind every move.",
       "live": "https://joekgilberto.github.io/battleship/",
       "repo": "https://github.com/joekgilberto/battleship",
       "image": "battleship.png"
