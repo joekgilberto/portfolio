@@ -9,9 +9,9 @@
   },
   {
     "name": "Blu-Rave",
-    "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.  Deployed on Netlify and Azure",
+    "tools": "C# and ASP.NET backend, a JavaScript and React frontend, with a PostgreSQL database, and authenticated through Auth0.  Not currently deployed.",
     "description": "Built a full-stack ASP.NET, React, and PostgreSQL application to track a user's blu-ray collection. Once logged in through Auth0 authentication, users can track specific notes about a blu-ray's edition, format, definition, and further details. The frontend is designed with React, using Axios API calls to the ASP.NET backend that interacts with a PostgreSQL database.",
-    "live": "https://blu-rave.netlify.app/",
+    "live": "",
     "repo": "https://github.com/joekgilberto/blu-rave",
     "image": "blu-rave.png"
   },

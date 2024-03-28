@@ -2,23 +2,24 @@ import "./Post.css"
 
 import Flare from "../Flare/Flare"
 
-export default function Post({project, idx}){
-    return(
-        <section className="post" style={{animation: `rise 1s forwards ${idx-(.75*idx)}s`}}>
-                <div className="post-top">
-                    <div className="post-title">
-                        <p className="blue">JG</p>
-                        <h1 className="pink-text">{project.name}</h1>
-                    </div>
-                    <img className="post-img" src={require(`../../assets/${project.image}`)} />
-                    <Flare side={'inline'} />
-                    <div className="post-info">
+export default function Post({ project, idx }) {
+    return (
+        <section className="post" style={{ animation: `rise 1s forwards ${idx - (.75 * idx)}s` }}>
+            <div className="post-top">
+                <div className="post-title">
+                    <p className="blue">JG</p>
+                    <h1 className="pink-text">{project.name}</h1>
+                </div>
+                <img className="post-img" src={require(`../../assets/${project.image}`)} />
+                <Flare side={'inline'} />
+                <div className="post-info">
                     <p className="post-tools">{project.tools}</p>
                     <p className="post-description">{project.description}</p>
-                    </div>
                 </div>
-                <div className="post-bottom">
-                    <div className="post-buttons">
+            </div>
+            <div className="post-bottom">
+                <div className="post-buttons">
+                    {project.live ?
                         <a href={project.live} target="_blank">
 
                             <button className="pink">
@@ -26,14 +27,15 @@ export default function Post({project, idx}){
                                 Live
                             </button>
                         </a>
-                        <a href={project.repo} target="_blank">
-                            <button className="blue">
-                                <img src={require('../../assets/comment.png')} alt="comment" />
-                                GitHub
-                            </button>
-                        </a>
-                    </div>
+                        : null}
+                    <a href={project.repo} target="_blank">
+                        <button className="blue">
+                            <img src={require('../../assets/comment.png')} alt="comment" />
+                            GitHub
+                        </button>
+                    </a>
                 </div>
-            </section>
+            </div>
+        </section>
     )
 }
