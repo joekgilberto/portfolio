@@ -38,34 +38,34 @@ main {
   display: flex;
   justify-content: center;
   align-self: center;
-  background-image: linear-gradient(135deg, #fff, #dce9ff);
+  background-image: linear-gradient(135deg, #ffffffac, #ffffff, #ffffffac);
   overflow-y: scroll;
   border-radius: 0 0 15px 15px;
 }
 
 
-.pink {
-  background-color: #ff68b8ff;
+.purple {
+  background-color: #5e81ff;
 }
 
 .blue {
-  background-color: #438bff;
+  background-color: #5ebcff;
 }
 
-.green {
-  background-color: #5acc29ff;
+.pink {
+  background-color: #eaabff;
 }
 
-.pink-text {
-  color: #ff68b8ff;
+.purple-text {
+  color: #5e81ff;
 }
 
 .blue-text {
-  color: #4a86e8ff;
+  color: #5ebcff;
 }
 
-.green-text {
-  color: #5acc29ff;
+.pink-text {
+  color: #eaabff;
 }
 
 @keyframes rise {

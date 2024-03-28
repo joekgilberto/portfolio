@@ -8,7 +8,7 @@ export default function Post({ project, idx }) {
             <div className="post-top">
                 <div className="post-title">
                     <p className="blue">JG</p>
-                    <h1 className="pink-text">{project.name}</h1>
+                    <h1 className="purple-text">{project.name}</h1>
                 </div>
                 <img className="post-img" src={require(`../../assets/${project.image}`)} />
                 <Flare side={'inline'} />
@@ -22,7 +22,7 @@ export default function Post({ project, idx }) {
                     {project.live ?
                         <a href={project.live} target="_blank">
 
-                            <button className="pink">
+                            <button className="purple">
                                 <img src={require('../../assets/heart.png')} alt="heart" />
                                 Live
                             </button>

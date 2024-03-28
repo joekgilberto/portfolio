@@ -23,7 +23,7 @@ function About({ setPage }) {
     function loaded() {
         return (
             <section className="About">
-                <h1 className="green-text">About</h1>
+                <h1 className="pink-text">About</h1>
                 <div className="content">
                     <div className="info">
                         <div className="bio">
@@ -34,11 +34,11 @@ function About({ setPage }) {
                                 </div>
                                 <div className="fact-two">
                                     <img src={require(`../../assets/${about.locationIcon}`)} alt='resume' />
-                                    <p className="pink-text">{about.location}</p>
+                                    <p className="purple-text">{about.location}</p>
                                 </div>
                                 <div className="fact-three">
                                     <img src={require(`../../assets/${about.codingIcon}`)} alt='resume' />
-                                    <p className="pink-text">{about.coding}</p>
+                                    <p className="purple-text">{about.coding}</p>
                                 </div>
                             </div>
                             <div className="skills">

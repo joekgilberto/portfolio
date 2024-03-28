@@ -27,7 +27,7 @@ function Projects({ page, setPage }) {
     return (
         <section className="Projects">
             <div className="project-header">
-                <h1 className="green-text">Projects</h1>
+                <h1 className="pink-text">Projects</h1>
                 <Flare side={'right'} />
             </div>
             <div className="feed">

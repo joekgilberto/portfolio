@@ -19,14 +19,10 @@ header nav {
 
 header nav a {
     width: 100%;
-    color: #4ba1ec;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 600;
     text-shadow: 2px 2px 2px #00000020;
-}
-
-header nav a div {
-    width: 100%;
 }
 
 header nav a:hover {
@@ -34,14 +30,22 @@ header nav a:hover {
 
 }
 
-header nav div {
+header nav a div {
     height: 60px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 5px;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
+}
+
+header nav a div p{
+    background-image: linear-gradient(135deg, #5ebcff, #5e81ff, #5ebcff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fake-buttons {
@@ -60,9 +64,9 @@ header nav div {
     height: 15px;
 }
 
-.dot.pink {
+.dot.purple {
     display: none;
-    animation: pink-dot .5s forwards 2.5s;
+    animation: purple-dot .5s forwards 2.5s;
 
 }
 
@@ -71,16 +75,20 @@ header nav div {
     animation: blue-dot .5s forwards 2.75s;
 }
 
-.dot.green {
+.dot.pink {
     display: none;
-    animation: green-dot .5s forwards 3s;
+    animation: pink-dot .5s forwards 3s;
     margin-right: 10px;
 }
 
-.active {
-    color: #fff;
+header nav a div.active {
     background-color: #77b4ff91;
     border-radius: 15px 15px 0 0;
+}
+
+header nav a div.active p {
+    -webkit-text-fill-color: #fff;
+
 }
 
 @media only screen and (min-width: 360px) {
@@ -100,7 +108,7 @@ header nav div {
         display: flex;
     }
 
-    .dot.pink {
+    .dot.purple {
         display: block;
     }
 
@@ -117,7 +125,7 @@ header nav div {
 
 
     .dot.blue,
-    .dot.green {
+    .dot.pink {
         display: block;
     }
 
@@ -146,44 +154,44 @@ header nav div {
 
 }
 
-@keyframes pink-dot {
+@keyframes purple-dot {
     0% {
-        background-color: #ff68b8ff;
+        background-color: #5e81ff;
     }
 
     50% {
-        background-color: #ffb8de;
+        background-color: #95acff;
     }
 
     100% {
-        background-color: #ff68b8ff;
+        background-color: #5e81ff;
     }
 }
 
 @keyframes blue-dot {
     0% {
-        background-color: #438bff;
+        background-color: #5ebcff;
     }
 
     50% {
-        background-color: #a4c7ff;
+        background-color: #9ed7ff;
     }
 
     100% {
-        background-color: #438bff;
+        background-color: #5ebcff;
     }
 }
 
-@keyframes green-dot {
+@keyframes pink-dot {
     0% {
-        background-color: #5acc29ff;
+        background-color: #eaabff;
     }
 
     50% {
-        background-color: #8ef462;
+        background-color: #f1c6ff;
     }
 
     100% {
-        background-color: #5acc29ff;
+        background-color: #eaabff;
     }
 }
