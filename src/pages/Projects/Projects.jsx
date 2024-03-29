@@ -1,7 +1,7 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
 
-import Post from "../../components/Post/Project";
+import Post from "../../components/Project/Project";
 import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
