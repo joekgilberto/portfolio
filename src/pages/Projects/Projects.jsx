@@ -1,7 +1,7 @@
 import "./Projects.css"
 import { useState, useEffect } from "react";
 
-import Post from "../../components/Post/Post";
+import Post from "../../components/Post/Project";
 import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
@@ -27,7 +27,7 @@ function Projects({ page, setPage }) {
     return (
         <section className="Projects">
             <div className="project-header">
-                <h1 className="green-text">Projects</h1>
+                <h2 className="purple-text">Projects</h2>
                 <Flare side={'right'} />
             </div>
             <div className="feed">

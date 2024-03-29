@@ -4,10 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
 }
 
 .Loading h1 {
     font-size: 60px;
-    color: #c2d2ef
+    text-shadow: 0px 2px 2px #00000040;
 }

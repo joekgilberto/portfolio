@@ -30,14 +30,15 @@ function Contact({ setPage }) {
         return (
             <section className="Contact">
                 <div className="contact-sidebar">
-                    <h1 className="green-text">Contact</h1>
+                    <h2 className="purple-text">Contact</h2>
                     <Flare side={'upward'} />
 
                 </div>
                 <div className="contact-info">
                     <div className="hello-there">
                         <div className="hello-there-title">
-                            <h2 className="pink-text">Hello, there!</h2><h2 className="wave">👋</h2>
+                            <h3 className="blue-text">Hello, there!</h3>
+                            <h3 className="wave">👋</h3>
                         </div>
                         <p>Feel free to email me, check out my work, connect on LinkedIn, or message me through the following form!  I would love to get in touch.</p>
                     </div>
@@ -45,8 +46,8 @@ function Contact({ setPage }) {
                         {contact.map((c, idx) => {
                             return (
                                 <div className="contact-link" key={idx} style={{ animation: `rise .5s forwards ${idx - (.75 * idx)}s` }}>
-                                    <h3 className="green">{c.name}</h3>
-                                    <p><a className="blue-text" href={c.link} target="_blank">{width>=500?c.linkText:c.linkShort}</a></p>
+                                    <h4 className="pink">{c.name}</h4>
+                                    <p><a className="purple-text" href={c.link} target="_blank">{width>=500?c.linkText:c.linkShort}</a></p>
                                 </div>
                             )
                         })}

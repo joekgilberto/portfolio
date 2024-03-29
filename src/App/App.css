@@ -1,11 +1,20 @@
-.App {
-  grid-column: 2 / span 48;
-  grid-row: 2 / span 48;
+.App{
+  width: 100vw;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 90px auto 40px;
-  font-family: 'Roboto', sans-serif;
+  grid-template-columns: repeat(50,1fr);
+  grid-template-rows: repeat(50,1fr);
+}
+
+.window {
+  grid-column: 2 / span 48;
+  grid-row: 2 / span 47;
+  display: grid;
+  display: flex;
+  flex-direction: column;
   animation: scale-y .25s forwards;
+  box-shadow: 5px 5px 10px #00000060;
+  border-radius: 15px;
 }
 
 a {
@@ -18,10 +27,6 @@ a:hover {
 
 }
 
-button {
-  font-family: 'Roboto', sans-serif;
-}
-
 button:hover,
 a:hover {
   cursor: pointer;
@@ -29,40 +34,38 @@ a:hover {
 
 main {
   height: 100%;
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-self: center;
-  background-image: linear-gradient(135deg, #fff, #dce9ff);
-  border-radius: 0 0 15px 15px;
-  box-shadow: 5px 5px 10px #00000060;
+  background-image: linear-gradient(135deg, #ffffff90, #ffffffac, #ffffff90);
   overflow-y: scroll;
+  border-radius: 0 0 15px 15px;
 }
 
 
-.pink {
-  background-color: #ff68b8ff;
+.purple {
+  background-color: #5e81ff;
 }
 
 .blue {
-  background-color: #438bff;
+  background-color: #5ebcff;
 }
 
-.green {
-  background-color: #5acc29ff;
+.pink {
+  background-color: #eaabff;
 }
 
-.pink-text {
-  color: #ff68b8ff;
+.purple-text {
+  color: #5e81ff;
 }
 
 .blue-text {
-  color: #4a86e8ff;
+  color: #5ebcff;
 }
 
-.green-text {
-  color: #5acc29ff;
+.pink-text {
+  color: #eaabff;
 }
 
 @keyframes rise {

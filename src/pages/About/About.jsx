@@ -23,33 +23,35 @@ function About({ setPage }) {
     function loaded() {
         return (
             <section className="About">
-                <h1 className="green-text">About</h1>
+                <h2 className="purple-text">About</h2>
                 <div className="content">
                     <div className="info">
                         <div className="bio">
                             <div className="quick-facts">
                                 <div className="fact-one">
                                     <img src={require(`../../assets/${about.resumeIcon}`)} alt='resume' />
-                                    <p><a className="blue-text" href={about.resume} target="_blank">Resume</a></p>
+                                    <a className="pink-text" href={about.resume} target="_blank">
+                                        <p>Resume</p>
+                                    </a>
                                 </div>
                                 <div className="fact-two">
                                     <img src={require(`../../assets/${about.locationIcon}`)} alt='resume' />
-                                    <p className="pink-text">{about.location}</p>
+                                    <p className="blue-text">{about.location}</p>
                                 </div>
                                 <div className="fact-three">
                                     <img src={require(`../../assets/${about.codingIcon}`)} alt='resume' />
-                                    <p className="pink-text">{about.coding}</p>
+                                    <p className="blue-text">{about.coding}</p>
                                 </div>
                             </div>
                             <div className="skills">
-                                {about.skills?.map((skill,idx)=>{
+                                {about.skills?.map((skill, idx) => {
                                     return <p key={idx} style={{
-                                        border: `2px solid ${idx%3===1?'#ff68b8ff'
-                                        :idx%3===2?'#4a86e8ff'
-                                        :'#5acc29ff'}`,
-                                        animation: `appear .5s forwards ${idx%3===1?'1.75s'
-                                        :idx%3===2?'2s'
-                                        :'2.25s'}`
+                                        border: `2px solid ${idx % 3 === 1 ? '#5e81ff'
+                                            : idx % 3 === 2 ? '#5ebcff'
+                                                : '#eaabff'}`,
+                                        animation: `appear .5s forwards ${idx % 3 === 1 ? '1.75s'
+                                            : idx % 3 === 2 ? '2s'
+                                                : '2.25s'}`
                                     }} >{skill}</p>
                                 })}
                             </div>

@@ -9,8 +9,8 @@
     box-shadow: 0px 2px 2px #00000040;
 }
 
-.pink.bar {
-    animation: pink-load .5s forwards .5s;
+.purple.bar {
+    animation: purple-load .5s forwards .5s;
 }
 
 .blue.bar {
@@ -18,8 +18,8 @@
 
 }
 
-.green.bar {
-    animation: green-load .5s forwards 1.5s;
+.pink.bar {
+    animation: pink-load .5s forwards 1.5s;
 
 }
 
@@ -35,16 +35,16 @@
     gap: 15px;
 }
 
-.center .pink.bar{
-    animation: pink-load .5s forwards .5s, shuffle .5s forwards 2.5s;
+.center .purple.bar{
+    animation: purple-load .5s forwards .5s, shuffle .5s forwards 2.5s;
 }
 
 .center .blue.bar{
     animation: blue-load .5s forwards 1s, shuffle .5s forwards 2.75s
 }
 
-.center .green.bar{
-    animation: green-load .5s forwards 1.5s, shuffle .5s forwards 3s;
+.center .pink.bar{
+    animation: pink-load .5s forwards 1.5s, shuffle .5s forwards 3s;
 }
 
 .left {
@@ -70,7 +70,7 @@
     gap: 15px;
 }
 
-.loading .pink.bar{
+.loading .purple.bar{
     width: 100%;
     animation: shuffle 1s infinite;
 }
@@ -80,7 +80,7 @@
     animation: shuffle 1s infinite reverse;
 }
 
-.loading .green.bar{
+.loading .pink.bar{
     width: 100%;
     animation: shuffle 1s infinite;
 }
@@ -93,8 +93,8 @@
     width: 10px;
 }
 
-.upward .pink.bar {
-    animation: pink-height-load .5s forwards .5s;
+.upward .purple.bar {
+    animation: purple-height-load .5s forwards .5s;
 
 }
 
@@ -103,12 +103,12 @@
 
 }
 
-.upward .green.bar {
-    animation: green-height-load .5s forwards 1.5s;
+.upward .pink.bar {
+    animation: pink-height-load .5s forwards 1.5s;
 
 }
 
-@keyframes pink-load {
+@keyframes purple-load {
     0% {
         width: 0;
     }
@@ -132,7 +132,7 @@
     }
 }
 
-@keyframes green-load {
+@keyframes pink-load {
     0% {
         width: 0;
     }
@@ -144,7 +144,7 @@
     }
 }
 
-@keyframes pink-height-load {
+@keyframes purple-height-load {
     0% {
         height: 10px;
     }
@@ -168,7 +168,7 @@
     }
 }
 
-@keyframes green-height-load {
+@keyframes pink-height-load {
     0% {
         height: 10px;
     }
