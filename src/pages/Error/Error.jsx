@@ -12,9 +12,9 @@ export default function Error({ setPage }) {
     return (
         <section className="Error">
             <div className="fake-search-header">
-                <h1>JOE GILBERTO</h1>
+                <h2 className="pink-text">JOE GILBERTO</h2>
                 <div className="fake-search-bar-error">
-                <h3>ERROR 404</h3>
+                <h3 className="blue-text">ERROR 404</h3>
                 <Link to='/about'>
                     <img className="fake-search-error" src={require('../../assets/search.png')} alt="fake search icon" />
                 </Link>
@@ -23,9 +23,9 @@ export default function Error({ setPage }) {
             <div className="fake-search-body">
                 <div className="page-not-found">
                     <Link to="/">
-                        <h2>Page not found</h2>
+                        <h4 className="purple-text">Page not found</h4>
                     </Link>
-                    <p>Click above to return to the homepage.</p>
+                    <p className="blue-text">Click above to return to the homepage.</p>
                 </div>
                 <ErrorFiller />
                 <ErrorFiller />
