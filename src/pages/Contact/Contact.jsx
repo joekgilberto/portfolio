@@ -46,7 +46,7 @@ function Contact({ setPage }) {
                         {contact.map((c, idx) => {
                             return (
                                 <div className="contact-link" key={idx} style={{ animation: `rise .5s forwards ${idx - (.75 * idx)}s` }}>
-                                    <h3 className="pink">{c.name}</h3>
+                                    <h4 className="pink">{c.name}</h4>
                                     <p><a className="purple-text" href={c.link} target="_blank">{width>=500?c.linkText:c.linkShort}</a></p>
                                 </div>
                             )
