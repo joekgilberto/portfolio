@@ -3,8 +3,8 @@ header {
     grid-row: 1 / span 1;
     display: flex;
     align-items: flex-end;
-    background-color: #ffffff91;
-    border-bottom: 20px solid #77b4ff91;
+    background-color: #ffffffda;
+    border-bottom: 20px solid #56a2ff91;
     border-radius: 15px 15px 0 0;
     z-index: 1;
 }
@@ -22,7 +22,7 @@ header nav a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    text-shadow: 2px 2px 2px #00000020;
+    text-shadow: 2px 2px 2px #00000030;
 }
 
 header nav a:hover {
@@ -82,7 +82,7 @@ header nav a div p{
 }
 
 header nav a div.active {
-    background-color: #77b4ff91;
+    background-color: #56a2ff91;
     border-radius: 15px 15px 0 0;
 }
 
