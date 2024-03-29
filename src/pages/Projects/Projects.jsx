@@ -5,7 +5,7 @@ import Post from "../../components/Project/Project";
 import Flare from "../../components/Flare/Flare";
 import Loading from "../Loading/Loading";
 
-function Projects({ page, setPage }) {
+function Projects({ setPage }) {
     const [projects, setProjects] = useState(null);
 
     async function getProjectsData() {
