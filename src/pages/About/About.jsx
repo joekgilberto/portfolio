@@ -55,9 +55,9 @@ function About({ setPage }) {
                                     }} >{skill}</p>
                                 })}
                             </div>
-                            <p className="bio-segment">{about.bio1}</p>
-                            <p className="bio-segment">{about.bio2}</p>
-                            <p className="bio-segment">{about.bio3}</p>
+                            {about.bios.map((bio, idx) => {
+                                return <p key={idx} className="bio-segment">{bio}</p>
+                            })}
                         </div>
                     </div>
                     <div className="profile-card">

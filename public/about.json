@@ -1,9 +1,12 @@
 {
   "name": "Joe Gilberto",
   "headshot": "headshot.jpg",
-  "bio1": "I am a versatile software engineer motivated by creative problem-solving and fruitful teamwork.",
-  "bio2": "During my time as a marketing producer, I honed my skills in project management, successfully overseeing up to a dozen projects concurrently. This involved working closely with professionals from diverse roles, creating intricate project schedules, and cultivating strong stakeholder relationships.",
-  "bio3": "My transition into software engineering has allowed me to further develop my coding abilities. I am now proficient in crafting intuitive and responsive frontend designs while also architecting and maintaining robust backend systems and databases. I am excited to leverage my expertise in development, along with my strengths in cooperation, time management, and effective communication, to tackle a wide range of challenging projects.",
+  "bios": [
+    "I'm a versatile software developer with a passion for creative problem-solving and collaboration.",
+    "Before transitioning into engineering, I honed my project management skills as a marketing producer, where I successfully oversaw up to a dozen projects at a time. This experience taught me the importance of strategic planning, cross-functional teamwork, and fostering strong stakeholder relationships, all of which continue to inform my approach to software development.",
+    "Currently, I work as a software developer at Karen Clark & Co., specializing in both frontend and backend development. My work includes enhancing intuitive React apps, maintaining a SQL database importer written in C# with a Windows Forms UI, and developing new functionality in ASP.NET APIs. I also upkeep a PHP-based CMS for the company website and helped build new, extensible geospatial lookup service writte in C#.",
+    "With a strong foundation in software development and a background in project management, I thrive in dynamic environments where cooperation, time management, and effective communication are key. I'm always excited to tackle challenging projects that push boundaries and deliver meaningful impact."
+  ],
   "resumeIcon": "resume.png",
   "resume": "https://drive.google.com/file/d/1AAukBVj_Pqz42LQVwU9zBxom8PvLo1nj/view?usp=sharing",
   "location": "Boston, MA",
@@ -12,28 +15,21 @@
   "codingIcon": "coding.png",
   "skills": [
     "C#",
-    "Python",
     "JavaScript",
     "TypeScript",
+    "PHP",
     "HTML",
     "CSS",
     ".NET",
     "Node.js",
     "ASP.NET",
-    "Django",
     "Express.js",
-    "MongoDB",
-    "Mongoose",
     "PostgreSQL",
-    "NoSQL",
     "SQL",
     "React",
-    "React Native",
-    "Material UI",
+    "Bootstrap",
     "Redux",
-    "Object-Oriented Programming",
-    "MVC Architecture",
-    "RESTful APIs",
+    "GitHub",
     "Git"
   ]
 }
