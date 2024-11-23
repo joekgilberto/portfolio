@@ -27,7 +27,7 @@ function App() {
           <Route path='/' element={<Home setPage={setPage} />} name='home' />
           <Route path='/about' element={<About setPage={setPage} />} name='about' />
           <Route path='/projects' element={<Projects setPage={setPage} />} name='projects' />
-          <Route path='/contact' element={<Contact setPage={setPage} />} name='error' />
+          <Route path='/contact' element={<Contact setPage={setPage} />} name='contact' />
           <Route path='/*' element={<Error setPage={setPage} />} name='error' />
         </Routes>
       </main>
