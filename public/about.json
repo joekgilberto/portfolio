@@ -2,10 +2,8 @@
   "name": "Joe Gilberto",
   "headshot": "headshot.jpg",
   "bios": [
-    "I'm a versatile software developer with a passion for creative problem-solving and collaboration.",
-    "Before transitioning into engineering, I honed my project management skills as a marketing producer, where I successfully oversaw up to a dozen projects at a time. This experience taught me the importance of strategic planning, cross-functional teamwork, and fostering strong stakeholder relationships, all of which continue to inform my approach to software development.",
-    "Currently, I work as a software developer at Karen Clark & Co., specializing in both frontend and backend development. My work includes enhancing intuitive React apps, maintaining a SQL database importer written in C# with a Windows Forms UI, and developing new functionality in ASP.NET APIs. I also upkeep a PHP-based CMS for the company website and helped build new, extensible geospatial lookup service written in C#.",
-    "With a strong foundation in software development and a background in project management, I thrive in dynamic environments where cooperation, time management, and effective communication are key. I'm always excited to tackle challenging projects that push boundaries and deliver meaningful impact."
+    "I’m a versatile software engineer with a passion for creative problem-solving and collaboration. My journey into software development has been fueled by a passion for building efficient solutions and hands-on contribution to thoughtful user experiences.",
+    "Currently, I work as a software developer at Karen Clark & Co., specializing in both frontend and backend development. My work includes enhancing intuitive React apps, maintaining a Windows Forms UI, and developing new functionality in ASP.NET APIs. I also upkeep a PHP-based CMS for the company website and rewrote a multi-source address standardization and geocoding service."
   ],
   "resumeIcon": "resume.png",
   "resume": "https://drive.google.com/file/d/1AAukBVj_Pqz42LQVwU9zBxom8PvLo1nj/view?usp=sharing",
@@ -15,20 +13,18 @@
   "codingIcon": "coding.png",
   "skills": [
     "C#",
-    "JavaScript",
     "TypeScript",
-    "PHP",
+    "JavaScript",
     "HTML",
     "CSS",
-    ".NET",
-    "Node.js",
-    "ASP.NET",
-    "Express.js",
-    "PostgreSQL",
     "SQL",
     "React",
     "Redux",
+    "Material UI",
+    "Bootstrap",
     "GitHub",
-    "Git"
+    "Git",
+    "Visual Studio",
+    "Visual Studio Code"
   ]
 }
