@@ -6,6 +6,7 @@ import Hobbies from "../pages/Hobbies";
 import Contact from "../pages/Contact";
 import backgroundImage from "../assets/background.jpeg";
 import Attribution from "../pages/Attribution";
+import NotFound from "../pages/NotFound";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/hobbies" element={<Hobbies />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/attribution" element={<Attribution />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Navigation />
     </main>
