@@ -1,16 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&family=Xmind:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
 
 * {
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  max-width: -webkit-fill-available;
-  max-height: -webkit-fill-available;
-  background-image: linear-gradient(135deg, #b6ffe5, #5ebcff, #5e81ff, #5ebcff, #b6ffe5);
-  padding: 0;
-  margin: 0;
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@theme {
+  --font-display: "Xmind", sans-serif;
+  --font-fancy: "Playwrite IT Trad", sans-serif;
+  --animate-slow-fade-in: slow-fade-in 0.75s ease-out both;
+  --animate-nav-expand: nav-expand 0.75s ease-out both;
+  --animate-link-fade-in: link-fade-in 0.6s ease-out 0.75s both;
+
+  @keyframes nav-expand {
+    from {
+      width: 0;
+    }
+    to {
+      width: 26rem;
+    }
+  }
+
+  @keyframes link-fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    40% {
+      opacity: 1;
+      transform: translateY(-6px);
+    }
+    65% {
+      transform: translateY(2px);
+    }
+    85% {
+      transform: translateY(-1px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slow-fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    100% {
+      opacity: inherit;
+      transform: translateY(0);
+    }
+  }
 }
