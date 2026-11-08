@@ -13,10 +13,10 @@ export default function ContactInfo({
 }: ContactInfoProps) {
   return (
     <div className="flex w-full border-2 border-green-950 rounded-lg shadow-md hover:[&_a]:decoration-current">
-      <p className="w-21 shrink-0 bg-green-900 px-2 py-1 rounded-s-[10px] border-e-2 border-green-950">
+      <p className="w-21 shrink-0 bg-green-900 px-2 py-1 rounded-s-[calc(var(--radius-lg)-2px)] border-e-2 border-green-950">
         {label}
       </p>
-      <p className="w-full min-w-0 break-all bg-green-800 px-2 py-1 rounded-e-[10px]">
+      <p className="w-full min-w-0 break-all bg-green-800 px-2 py-1 rounded-e-[calc(var(--radius-lg)-2px)]">
         <a
           href={link}
           target={newTab ? "_blank" : undefined}
