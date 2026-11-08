@@ -1,8 +1,12 @@
+import type { CSSProperties } from "react";
+
 interface ContactInfoProps {
   label: string;
   value: string;
   link: string;
   newTab?: boolean;
+  style?: CSSProperties;
+  className?: string;
 }
 
 export default function ContactInfo({
@@ -10,9 +14,14 @@ export default function ContactInfo({
   value,
   link,
   newTab = true,
+  style = {},
+  className = "",
 }: ContactInfoProps) {
   return (
-    <div className="flex w-full border-2 border-green-950 rounded-lg shadow-md hover:[&_a]:decoration-current">
+    <div
+      style={style}
+      className={`flex w-full border-2 border-green-950 rounded-lg shadow-md hover:[&_a]:decoration-current ${className}`}
+    >
       <p className="w-21 shrink-0 bg-green-900 px-2 py-1 rounded-s-[calc(var(--radius-lg)-2px)] border-e-2 border-green-950">
         {label}
       </p>

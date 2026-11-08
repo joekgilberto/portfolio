@@ -4,6 +4,8 @@ import AttributionInfo from "../components/AttributionInfo";
 import { FaFileImage } from "react-icons/fa6";
 import { FaFont } from "react-icons/fa6";
 
+const DELAY = 150;
+
 export default function Attribution() {
   return (
     <Content
@@ -15,7 +17,12 @@ export default function Attribution() {
         Below are attributions for the assets used throughout my portfolio.
         Thank you to the contributors for their works.
       </p>
-      <AttributionInfo icon={<FaFileImage />} title="Background Photo">
+      <AttributionInfo
+        icon={<FaFileImage />}
+        title="Background Photo"
+        style={{ animationDelay: `${DELAY}ms` }}
+        className="motion-safe:animate-slow-fade-in"
+      >
         <p>
           <a
             href="https://unsplash.com/photos/green-linear-leafed-plants-jqgsM3B9Fpo"
@@ -45,7 +52,12 @@ export default function Attribution() {
           </a>
         </p>
       </AttributionInfo>
-      <AttributionInfo icon={<FaFileImage />} title="Favicon">
+      <AttributionInfo
+        icon={<FaFileImage />}
+        title="Favicon"
+        style={{ animationDelay: `${DELAY * 2}ms` }}
+        className="motion-safe:animate-slow-fade-in"
+      >
         <p>
           <a
             href="https://unsplash.com/illustrations/collection-of-ripe-and-unripe-bananas-and-peels-iuOKg5WZcRo"
@@ -75,7 +87,12 @@ export default function Attribution() {
           </a>
         </p>
       </AttributionInfo>
-      <AttributionInfo icon={<FaFont />} title="Header Font">
+      <AttributionInfo
+        icon={<FaFont />}
+        title="Header Font"
+        style={{ animationDelay: `${DELAY * 3}ms` }}
+        className="motion-safe:animate-slow-fade-in"
+      >
         <p>
           Copyright 2023 The Playwrite Project Authors (
           <a
@@ -117,7 +134,12 @@ export default function Attribution() {
           - 26 February 2007
         </p>
       </AttributionInfo>
-      <AttributionInfo icon={<FaFont />} title="Body Font">
+      <AttributionInfo
+        icon={<FaFont />}
+        title="Body Font"
+        style={{ animationDelay: `${DELAY * 5}ms` }}
+        className="motion-safe:animate-slow-fade-in"
+      >
         <p>
           Copyright 2025 The Xmind Project Authors (
           <a
