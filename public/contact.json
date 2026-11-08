@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Email",
+        "linkShort":"Draft",
+        "linkText": "joekgilberto@gmail.com",
+        "link": "mailto:joekgilberto@gmail.com?subject='Hello, Joe!'"
+    },
+    {
+        "name": "GitHub",
+        "linkShort":"/joekgilberto",
+        "linkText": "github.com/joekgilberto",
+        "link": "https://github.com/joekgilberto"
+    },
+    {
+        "name": "LinkedIn",
+        "linkText": "linkedin.com/in/joekgilberto/",
+        "linkShort":"in/joekgilberto",
+        "link": "https://www.linkedin.com/in/joekgilberto/"
+    },
+    {
+        "name": "Resume",
+        "linkText": "A PDF of my resume",
+        "linkShort":"PDF",
+        "link": "https://drive.google.com/file/d/1AAukBVj_Pqz42LQVwU9zBxom8PvLo1nj/view?usp=sharing"
+    }
+]

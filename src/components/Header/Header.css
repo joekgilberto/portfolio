@@ -1,0 +1,198 @@
+header {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    display: flex;
+    align-items: flex-end;
+    background-color: #ffffffda;
+    border-bottom: 20px solid #56a2ff91;
+    border-radius: 15px 15px 0 0;
+    z-index: 1;
+}
+
+header nav {
+    display: none;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0 10px;
+}
+
+header nav a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #00000030;
+}
+
+header nav a:hover {
+    text-decoration: none !important;
+
+}
+
+header nav a div {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    margin: 10px 0 0 0;
+}
+
+header nav a div p{
+    background-image: linear-gradient(135deg, #5ebcff, #5e81ff, #5ebcff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fake-buttons {
+    height: 70px;
+    width: auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 0 0 0 20px;
+}
+
+.dot {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    box-shadow: 0px 1px 1px #00000040;
+}
+
+.dot.purple {
+    display: none;
+    animation: purple-dot .5s forwards 2.5s;
+
+}
+
+.dot.blue {
+    display: none;
+    animation: blue-dot .5s forwards 2.75s;
+}
+
+.dot.pink {
+    display: none;
+    animation: pink-dot .5s forwards 3s;
+    margin-right: 10px;
+}
+
+header nav a div.active {
+    background-color: #56a2ff91;
+    border-radius: 15px 15px 0 0;
+}
+
+header nav a div.active p {
+    -webkit-text-fill-color: #fff;
+
+}
+
+@media only screen and (min-width: 360px) {
+    header nav a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 445px) {
+    header nav a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 555px) {
+    .fake-buttons {
+        display: flex;
+    }
+
+    .dot.purple {
+        display: block;
+    }
+
+    header nav a {
+        font-size: 24px;
+    }
+
+    .projects {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 560px) {
+
+
+    .dot.blue,
+    .dot.pink {
+        display: block;
+    }
+
+    .fake-buttons {
+        width: 90px;
+    }
+}
+
+@media only screen and (min-width: 695px) {
+
+    header nav a {
+        font-size: 28px;
+    }
+
+    .fake-buttons {
+        width: 130px;
+        height: 70px;
+        padding: 0 0 0 30px;
+    }
+
+    .dot {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@keyframes purple-dot {
+    0% {
+        background-color: #5e81ff;
+    }
+
+    50% {
+        background-color: #95acff;
+    }
+
+    100% {
+        background-color: #5e81ff;
+    }
+}
+
+@keyframes blue-dot {
+    0% {
+        background-color: #5ebcff;
+    }
+
+    50% {
+        background-color: #9ed7ff;
+    }
+
+    100% {
+        background-color: #5ebcff;
+    }
+}
+
+@keyframes pink-dot {
+    0% {
+        background-color: #eaabff;
+    }
+
+    50% {
+        background-color: #f1c6ff;
+    }
+
+    100% {
+        background-color: #eaabff;
+    }
+}
