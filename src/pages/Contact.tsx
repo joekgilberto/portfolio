@@ -56,7 +56,7 @@ export default function Contact() {
           />
         );
       })}
-      <p>Feel free to reach out! I look forward to hearing form you.</p>
+      <p>Feel free to reach out! I look forward to hearing from you.</p>
     </Content>
   );
 }
