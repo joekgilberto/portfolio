@@ -15,7 +15,7 @@ export default function Attribution() {
     >
       <p>
         Below are attributions for the assets used throughout my portfolio.
-        Thank you to the contributors for their works.
+        Thank you to the contributors for their work.
       </p>
       <AttributionInfo
         icon={<FaFileImage />}
