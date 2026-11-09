@@ -52,7 +52,7 @@ export default function Work() {
         {SKILLS.map(({ icon, skill }, i) => (
           <Chip
             style={{ animationDelay: `${i * 150}ms` }}
-            className="motion-safe:animate-link-fade-in"
+            className="motion-safe:animate-pop-in"
             icon={icon}
             text={skill}
             key={i}

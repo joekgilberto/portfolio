@@ -52,7 +52,7 @@ export default function Contact() {
             link={link}
             newTab={newTab ?? true}
             style={{ animationDelay: `${i * 150}ms` }}
-            className="motion-safe:animate-slow-fade-in"
+            className="motion-safe:animate-pop-in"
           />
         );
       })}

@@ -89,7 +89,7 @@ export default function Hobbies() {
           <a key={i} href={link} target="_blank" rel="noopener noreferrer">
             <Chip
               style={{ animationDelay: `${i * 150}ms` }}
-              className="motion-safe:animate-link-fade-in hover:decoration-current underline decoration-2 decoration-transparent underline-offset-4 cursor-pointer"
+              className="motion-safe:animate-pop-in hover:decoration-current underline decoration-2 decoration-transparent underline-offset-4 cursor-pointer"
               text={hobby}
             />
           </a>
@@ -106,7 +106,7 @@ export default function Hobbies() {
               style={{
                 animationDelay: `${(RECIPES.length + 1) * 150 + i * 150}ms`,
               }}
-              className="motion-safe:animate-link-fade-in hover:decoration-current underline decoration-2 decoration-transparent underline-offset-4 cursor-pointer"
+              className="motion-safe:animate-pop-in hover:decoration-current underline decoration-2 decoration-transparent underline-offset-4 cursor-pointer"
               text={hobby}
             />
           </a>

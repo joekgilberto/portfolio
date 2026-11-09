@@ -21,7 +21,7 @@ export default function Attribution() {
         icon={<FaFileImage />}
         title="Background Photo"
         style={{ animationDelay: `${DELAY}ms` }}
-        className="motion-safe:animate-slow-fade-in"
+        className="motion-safe:animate-pop-in"
       >
         <p>
           <a
@@ -56,7 +56,7 @@ export default function Attribution() {
         icon={<FaFileImage />}
         title="Favicon"
         style={{ animationDelay: `${DELAY * 2}ms` }}
-        className="motion-safe:animate-slow-fade-in"
+        className="motion-safe:animate-pop-in"
       >
         <p>
           <a
@@ -91,7 +91,7 @@ export default function Attribution() {
         icon={<FaFont />}
         title="Header Font"
         style={{ animationDelay: `${DELAY * 3}ms` }}
-        className="motion-safe:animate-slow-fade-in"
+        className="motion-safe:animate-pop-in"
       >
         <p>
           Copyright 2023 The Playwrite Project Authors (
@@ -138,7 +138,7 @@ export default function Attribution() {
         icon={<FaFont />}
         title="Body Font"
         style={{ animationDelay: `${DELAY * 5}ms` }}
-        className="motion-safe:animate-slow-fade-in"
+        className="motion-safe:animate-pop-in"
       >
         <p>
           Copyright 2025 The Xmind Project Authors (

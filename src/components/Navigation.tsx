@@ -51,7 +51,7 @@ export default function Navigation() {
           to={path}
           aria-label={label}
           style={{ animationDelay: `${600 + i * 200}ms` }}
-          className="p-2 sm:p-0 underline decoration-2 decoration-transparent underline-offset-4 transition-colors duration-300 hover:decoration-current cursor-pointer motion-safe:animate-link-fade-in"
+          className="p-2 sm:p-0 underline decoration-2 decoration-transparent underline-offset-4 transition-colors duration-300 hover:decoration-current cursor-pointer motion-safe:animate-pop-in"
         >
           {icon}
           <span className="hidden sm:inline">{label}</span>
